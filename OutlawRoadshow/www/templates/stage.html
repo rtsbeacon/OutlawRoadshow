@@ -1,7 +1,7 @@
 <ion-view>
 <ion-content>
     <div class="list">
-    <div class="item item-divider">FRIDAY - Red Eyed Fly: Outdoor Patio Stage</div>
+    <div class="item item-divider">FRIDAY - Red Eyed Fly: Outdoor Patio</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:1}" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -10,7 +10,7 @@
       </ion-item>
 
    
-    <div class="item item-divider">FRIDAY - Red Eyed Fly: Indoor Lounge Stage</div>
+    <div class="item item-divider">FRIDAY - Red Eyed Fly: Indoor Lounge</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:2}" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -28,7 +28,7 @@
       </ion-item>
 
  
-    <div class="item item-divider">SATURDAY - Red Eyed Fly: Outdoor Patio Stage</div>
+    <div class="item item-divider">SATURDAY - Red Eyed Fly: Outdoor Patio</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists  | filter: {dayId:2, stageId:1}" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
        <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -37,7 +37,7 @@
       </ion-item>
 
 
-    <div class="item item-divider">SATURDAY - Red Eyed Fly: Indoor Lounge Stage</div>
+    <div class="item item-divider">SATURDAY - Red Eyed Fly: Indoor Lounge</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:2, stageId:2}" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>

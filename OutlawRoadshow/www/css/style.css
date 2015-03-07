@@ -25,6 +25,12 @@
   font-size: 14px;
 }
 
+.content-artist-detail {
+ font-family: "Antonio-Regular";
+  font-size: 22px;
+  padding: 10px 10px 10px 10px;
+
+}
 /* changing item stuff */
 .item-thumbnail-left,
 .item-thumbnail-left .item-content {

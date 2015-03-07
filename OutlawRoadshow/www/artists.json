@@ -1,6 +1,6 @@
 [ 
 	{
-      "id":5,
+      "id":95,
       "name":"Those Nights",
       "day":"Friday",
       "dayId":"1",
@@ -14,7 +14,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
       {
-      "id":1,
+      "id":91,
       "name":"Colee James",
       "day":"Friday",
       "dayId":"1",
@@ -28,7 +28,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
       {
-      "id":3,
+      "id":93,
       "name":"Devin Sinha",
       "day":"Friday",
       "dayId":"1",
@@ -42,7 +42,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
       {
-      "id":4,
+      "id":94,
       "name":"Daphne Lee Martin",
       "day":"Friday",
       "dayId":"1",
@@ -56,7 +56,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
       {
-      "id":0,
+      "id":90,
       "name":"Josh Buckley",
       "day":"Friday",
       "dayId":"1",
@@ -70,7 +70,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
       {
-      "id":6,
+      "id":96,
       "name":"Doctor Gasp",
       "day":"Saturday",
       "dayId":"2",
@@ -84,7 +84,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
       {
-      "id":7,
+      "id":97,
       "name":"Christopher Krey",
       "day":"Saturday",
       "dayId":"2",
@@ -98,7 +98,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
        {
-      "id":8,
+      "id":98,
       "name":"Roem Baur",
       "day":"Saturday",
       "dayId":"2",
@@ -112,7 +112,7 @@
       "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
     },
       {
-      "id":9,
+      "id":99,
       "name":"Little Brave",
       "day":"Saturday",
       "dayId":"2",
@@ -455,12 +455,12 @@
       "time":"12:00am",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
+      "url":"http://www.hollisbrown.com",
+      "mp3":"https://soundcloud.com/hollisbrown/wait-for-me-virginia",
       "thumb":"http://songchant.com/outlaw/images/hollisbrown_th.jpg",
-      "image":"http://songchant.com/outlaw/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },    
+      "image":"http://songchant.com/outlaw/images/hollisbrown.jpg",
+      "bio":"Hollis Brown was started in Queens, New York City in 2009 by college friends and songwriting partners Jon Bonilla and Mike Montali. Upon writing over fifty songs together, they decided to take things to the next level and form a band. After a self-released demo, they were signed to Alive Natural Sound, releasing their debut Ride On The Train in March 2013. Critical acclaim soon followed as Rolling Stone, Spin, and American Songwriter all premiered material from the album. On April 19, 2014, they released an exclusive Record Store Day tribute to The Velvet Underground."
+       },    
          {
       "id":34,
       "name":"The Silks",

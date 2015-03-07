@@ -60,11 +60,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   		views: {
        'menuContent': {
   	     templateUrl: 'templates/artist-detail.html',
-  	     //controller: 'ArtistDetailCtrl', 
-		controller: function ($scope, $stateParams) {
-			console.log($stateParams),
-         $scope.artistId = $stateParams.artistId;
-	   }
+  	     controller: 'ArtistDetailCtrl', 
+		//controller: function ($scope, $stateParams) {
+			//console.log($stateParamas),
+        // $scope.artistId = $stiateParams.artistId;
+	   //}
 	}
 	  }
 	})

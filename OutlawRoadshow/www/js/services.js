@@ -5,9 +5,10 @@ angular.module('starter.services', [])
    var artists = [];
     return {
       getArtists: function(){
-        return $http.get("http://songchant.com/outlaw/artists.json").then(function(response){
+        return $http.get("http://www.songchant.com/outlaw/artists.json").then(function(response){
           artists = response;
           return artists;
+          console.log(artists);
         });
       },
       getArtist: function(artistId) {
@@ -21,6 +22,15 @@ angular.module('starter.services', [])
     }
  });
  
+
+ //  return {
+ //   all: function() {
+  //    return artists;
+ //   },
+ //   get: function(artistId) {
+      // Simple index lookup
+//      return artists[artistId];
+
 
 //.factory('Chats', function() {
   // Might use a resource here that returns a JSON array

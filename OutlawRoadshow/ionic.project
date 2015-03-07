@@ -1,0 +1,12 @@
+{
+  "name": "OutlawSass",
+  "app_id": "a5d01814",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

@@ -1,0 +1,53 @@
+[    
+	{
+      "id":0,
+      "name":"Band D",
+      "day":"Friday",
+      "time":"3:00pm",
+	    "stage":"Red Eyed Fly",
+      "url":"http://",
+      "mp3":"http://",
+      "thumb":"http://songchant.com/images/thumb.jpg",
+      "image":"http://songchant.com/images/image.jpg",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
+    },
+      {
+      "id":1,
+      "name":"Band B",
+      "day":"Friday",
+      "time":"4:00pm",
+      "stage":"Red Eyed Fly",
+      "url":"http://",
+      "mp3":"http://",
+      "thumb":"http://songchant.com/images/thumb.jpg",
+      "image":"http://songchant.com/images/image.jpg",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
+    },
+      {
+      "id":3,
+      "name":"Band A",
+      "day":"Friday",
+      "time":"5:00pm",
+      "stage":"Red Eyed Fly",
+      "url":"http://",
+      "mp3":"http://",
+      "thumb":"http://songchant.com/images/thumb.jpg",
+      "image":"http://songchant.com/images/image.jpg",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
+    },
+      {
+      "id":4,
+      "name":"Band C",
+      "day":"Friday",
+      "time":"6:00pm",
+      "stage":"Red Eyed Fly",
+      "url":"http://",
+      "mp3":"http://",
+      "thumb":"http://songchant.com/images/thumb.jpg",
+      "image":"http://songchant.com/images/image.jpg",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
+    },
+]
+
+
+

@@ -1,0 +1,15 @@
+<ion-view>
+  <ion-content>
+    <ion-list>
+ <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | orderBy: 'name'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
+      <img ng-src="{{artist.thumb}}"> 
+      {{artist.name}}
+      <span class="item-note">{{artist.day}}<br>
+      {{artist.time}}<br>
+      <span style="color: #BA1013">{{artist.stage}}</span></span>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+

@@ -1,0 +1,35 @@
+<!--
+This template loads for the 'tab.artist-detail' state (app.js)
+'artist' is a $scope variable created in the ArtistsCtrl controller (controllers.js)
+The ArtistsCtrl pulls data from the Artists service (service.js)
+The Artists service returns an array of artist data
+
+ | filter: {id:artistId}
+-->
+
+<ion-view>
+  <ion-content class="padding" ng-repeat="artist in artists | filter: {id:33}">
+    <!-- <img ng-src="{{artist.face}}" style="width: 100%; height: 124px">-->
+
+    	<b>{{artist.name}}</b><br>
+    
+        {{artist.day}}<br>
+        {{artist.time}}<br>
+        {{artist.stage}}<br>
+        {{artist.bio}}
+      
+      
+ 
+ 
+    <div class="button-bar">
+    <!--	<a href="#/app/artists/{{artist.id}-1}" class="button icon-left ion-arrow-left-a button-clear button-dark"></a>  -->
+  		<a href="{{artist.url}}" class="button button-assertive">Site</a>
+  		<a href="{{artist.mp3}}" class="button button-assertive icon ion-play"></a>
+  	<!--	<a href="#/app/artists/{{artist.id}+1}" class="button icon-right ion-arrow-right-a button-clear button-dark"></a>  -->
+	</div>
+
+ <!--    <p><a >Listen to {{artist.mp3name}}</a></p>  -->
+   
+  </ion-content>
+</ion-view> 
+

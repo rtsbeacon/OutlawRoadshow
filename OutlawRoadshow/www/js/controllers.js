@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-
+  
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
     enableArtists: true

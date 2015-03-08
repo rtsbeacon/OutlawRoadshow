@@ -10,7 +10,7 @@ angular.module('starter.controllers', [])
 
 .controller('ArtistDetailCtrl', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams) {
   //var artist = Artists.getArtist($scope.artistId);
-  $http.get('http://www.songchant.com/outlaw/artists.json').success(function(data) {
+  $http.get('http://songchant.com/outlaw/artists.json').success(function(data) {
          console.log(data);
          $scope.artists = data;
      });
@@ -20,7 +20,7 @@ angular.module('starter.controllers', [])
 
 
 .controller('ArtistsCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://www.songchant.com/outlaw/artists.json").success(function(data) {
+     $http.get("http://songchant.com/outlaw/artists.json").success(function(data) {
          console.log(data);
          $scope.artists = data;
      });

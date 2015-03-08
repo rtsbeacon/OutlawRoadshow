@@ -7,7 +7,7 @@ The Artists service returns an array of artist data
 
 <ion-view>
   <ion-content class="content-artist-detail" ng-repeat="artist in artists | filter: {id:artist}">
-    <img ng-src="{{artist.image}}" style="width: 100%; height: 124px; padding-top: 10px"><br><br>
+    <img ng-src="{{artist.image}}" style="padding-top: 10px"><br><br>
 
       <span style="font-size: 22px">{{artist.name}}</span><br>
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}} - </span><span style="font-size: 14px; color: #BA1013">{{artist.stage}}</span><br><br>
@@ -15,8 +15,8 @@ The Artists service returns an array of artist data
  
     <div class="button-bar">
     <!--	<a href="#/app/artists/{{artist.id}-1}" class="button icon-left ion-arrow-left-a button-clear button-dark"></a>  -->
-  		<a href="{{artist.url}}" class="button button-assertive">Site</a>
-  		<a href="{{artist.mp3}}" class="button button-assertive icon ion-play"></a>
+  		<a href="{{artist.url}}" onClick="javascript:return openExternal(this)" class="button button-assertive">Site</a>
+  		<a href="{{artist.mp3}}" onClick="javascript:return openExternal(this)" class="button button-assertive icon ion-play"></a>
   	<!--	<a href="#/app/artists/{{artist.id}+1}" class="button icon-right ion-arrow-right-a button-clear button-dark"></a>  -->
 	</div>
 

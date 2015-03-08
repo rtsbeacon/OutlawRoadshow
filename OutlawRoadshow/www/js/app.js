@@ -22,8 +22,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 })
 
 
-
-
 //this is code for the slide menu
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider

@@ -85,7 +85,7 @@
        },
       {
       "id":97,
-      "name":"Christopher Krey",
+      "name":"Christoph Krey",
       "day":"Saturday",
       "dayId":"2",
       "time":"3:00pm",
@@ -147,12 +147,12 @@
       "time":"11:15pm",
       "stageId":"2",
       "stage":"Red Eyed Fly: Indoor Lounge",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },
+      "url":"http://www.jaynash.com/",
+      "mp3":"https://soundcloud.com/thecontenders/the-contender",
+      "thumb":"http://songchant.com/outlaw/images/jaynash_th.jpg",
+      "image":"http://songchant.com/outlaw/images/jaynash.jpg",
+      "bio":"If you’re trying to imagine what to expect from the new shows with The Contenders, just take everything that you have ever liked about a ‘Jay Nash’ show, add a soul stirring harmony and a sticky back beat…throw that in a blender with equal parts of folk, rom n roll revival and heartbreak and you’ll be on the right track. "
+        },
       {
       "id":12,
       "name":"Steen",
@@ -161,12 +161,12 @@
       "time":"3:30pm",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },
+      "url":"https://www.facebook.com/STEENAUSTINTEXAS",
+      "mp3":"https://soundcloud.com/steen-13/say-your-goodbyes",
+      "thumb":"http://songchant.com/outlaw/images/steen_th.jpg",
+      "image":"http://songchant.com/outlaw/images/steen.jpg",
+      "bio":"Since Dan, Joey, Sean, and Harry, the four talented musicians that form STEEN, have been together they have only left jaws open and fond memories wherever they’ve been. They have spent their time together not only writing the songs to their upcoming album 'Feel Of It All', but also hiring themselves out for bars and weddings with a repertoire of over 50 covers which range from Led Zeppelin, to Mariah Carey, and their favorite, The Beatles. They are currently making their debut in the industry as a rock group that only uses labels for their convenience. With an eclectic blend of genres that is familiar but always its own, they offer a sound that can go from light jazz to hard rock the next, to rock-pop after. There’s no doubt that this band is capable of nothing but leaving smiles and good times in their wake." 
+      },
           {
       "id":13,
       "name":"Somebody's Darling",
@@ -175,26 +175,26 @@
       "time":"6:00pm",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },
+      "url":"http://www.somebodysdarling.com/",
+      "mp3":"https://soundcloud.com/somebodysdarling/1-bad-bad?in=somebodysdarling/sets/adult-roommates",
+      "thumb":"http://songchant.com/outlaw/images/somebody_th.jpg",
+      "image":"http://songchant.com/outlaw/images/somebody.jpg",
+      "bio":"Their name may sound like a soft lullaby, but Somebody's Darling are anything but sleepy. A little bit Gary Clark Jr. with a hint of ZZ Ward, the talented five piece jam bluesy rock 'n' roll tunes that are big and commanding in every possible way - from lead singer Amber Farris' impressive vocal chops and wild blonde hair to the band's ballsy rhythm section and grooving guitar licks. The group has opened for some great acts including Brandi Carlile, St. Paul & the Broken Bones, Shovels & Rope, Lucero, Deer Tick and Divine Fits. Now together for over 500 shows and three albums, their most recent release, 2014's Adult Roommates, take a mature and sometimes stark look at what it means to be a working band, from the on-stage chemistry to the crazy off-stage antics - summarized perfectly in the smoky fifth track, 'End of the Line', where Farris croons, 'This is the oldest we have been. This is the youngest we will ever be.'" 
+      },
       {
       "id":14,
-      "name":"Hookah Hey",
+      "name":"Hooka Hey",
       "day":"Friday",
       "dayId":"1",
       "time":"7:30pm",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },    
+      "url":"http://www.hookaheymusic.com/",
+      "mp3":"https://soundcloud.com/hooka-hey/nasty-1",
+      "thumb":"http://songchant.com/outlaw/images/hookahey_th.jpg",
+      "image":"http://songchant.com/outlaw/images/hookahey.jpg",
+      "bio":"Heavy grooves steeped in the blues. Smokey, sludgy sound dense and charged like the air just before a rainstorm. Hooka Hey’s name derives from the Indian war cry – feelings, instinct and sexuality - the elements that drive the sound of the band’s songs and live shows. Hooka Hey has opened for international artists such as Built To Spill, Ted Leo and the Pharmacists, and Miles Kane."
+      },    
       {
       "id":15,
       "name":"Await Rescue",
@@ -203,12 +203,12 @@
       "time":"10:30pm",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },
+      "url":"http://www.awaitrescue.com/",
+      "mp3":"https://soundcloud.com/the-outlaw-roadshow/await-rescue-all-she-needs",
+      "thumb":"http://songchant.com/outlaw/images/awaitrescue_th.jpg",
+      "image":"http://songchant.com/outlaw/images/awaitrescue.jpg",
+      "bio":"Await Rescue will give you a break from whatever you are listening to.  They aren’t over-produced pop, don’t play into the retro crazes currently overtaking music, and cannot stomach the modern “Rock” sound that has embarrassed the genre they love so much.  Instead, Await Rescue’s sound can best be described as the stadium-sized hooks and songwriting sensibilities of Foo Fighters meet the aggression and raw energy of Every Time I Die. The Boston-based band was recently voted 'Best Live Show of 2014' by Do617 and was a finalist in the 35th Annual Rock 'N' Roll Rumble."
+ },
           {
       "id":16,
       "name":"Snake Skin Prison",
@@ -217,12 +217,12 @@
       "time":"12:00am",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },
+      "url":"http://www.snakeskinprison.com/",
+      "mp3":"http://www.reverbnation.com/snakeskinprison/song/20175928-blood-in-the-water",
+      "thumb":"http://songchant.com/outlaw/images/snakeskinprison_th.jpg",
+      "image":"http://songchant.com/outlaw/images/snakeskinprison.jpg",
+      "bio":"Pumpin out music like the Hounds of Hell are on their ass with a deadline to meet, playing with their eyes wide open and our ears peeled back, making a difference, to hell with the difference SSP is the Difference: PURE HOT ROD ROCK N ROLL , the kind that will make your ears bleed, the kind that will make ya stand up and shout, throw a fist in the air and thank God youíre an American! Burning through the downtown dives of Austin TX to the biggest stages of the summers biggest Festivals, Snake Skin Prison (SSP), is most definately living the life they were born to live. Headlining the hottsest stages in the hottest cities SSP delivers the punch to the throat you've been waiting for. With the release of their Debut Album 'Get Bit!!' SSP is spreading this disease all throughout the land with no stage to big or too small for the Loudest Band in Rock N Roll!! "
+      },
       {
       "id":17,
       "name":"The Nimbus",
@@ -231,12 +231,12 @@
       "time":"4:30pm",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },   
+      "url":"http://www.thenimbus.info/",
+      "mp3":"http://www.reverbnation.com/thenimbus/song/17600555-precipitate-blue-skies-intro",
+      "thumb":"http://songchant.com/outlaw/images/thenimbus_th.jpg",
+      "image":"http://songchant.com/outlaw/images/thenimbus.jpg",
+      "bio":"The Nimbus is an electronic band from Austin, Texas; formed in late 2011 by Ritch Napierkowski and Martin McCreadie. Having spent the previous two and a half years working together on other projects, including SUBNATURAL which had placed five straight years in AUSTIN CHRONICLE MUSIC POLLS, the two began performing cacophonous pop songs tailored for cloudy days. With musical influences spanning alternative and indie rock, trip hop, dub, industrial, jazz, blues, and more, they use haunting melodies, lush atmospheres and mangled electronics to envelop the listener. Mixed with a love of eclectic instrumentation and effects, the result is glitched electropop as foreign as it is familiar."
+ },   
       {
       "id":18,
       "name":"Skunkmello",
@@ -245,12 +245,12 @@
       "time":"8:15pm",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },      
+      "url":"http://skunkmello.com/",
+      "mp3":"https://soundcloud.com/skunkmello/backseat-gypsy-1",
+      "thumb":"http://songchant.com/outlaw/images/skunkmello_th.jpg",
+      "image":"http://songchant.com/outlaw/images/skunkmello.jpg",
+      "bio":"Sewer blues and gutter grooves for the barefooted and absent minded. After almost 3 years of late nights, lost shoes, and last calls, Skunkmello remains one of New York City's hardest working and most prolific new bands. After a single blistering recording session in August 2012, the band released their debut 'Whiskey & Oatmeal' to an overwhelmingly positive response online and at college radio. June 2013 saw the release of a second EP 'Lowlife Dreams' which was Mastered by Grammy Award Winner Brian Lucey (best known for his work on The Black Keys' 'Brothers' and 'El Camino')."
+       },      
       {
       "id":19,
       "name":"Animal Years",
@@ -259,12 +259,12 @@
       "time":"9:00pm",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    }, 
+      "url":"http://www.animalyearsmusic.com/",
+      "mp3":"https://soundcloud.com/animalyears/meet-me-animal-years",
+      "thumb":"http://songchant.com/outlaw/images/animalyears_th.jpg",
+      "image":"http://songchant.com/outlaw/images/animalyears.jpg",
+      "bio":"Brooklyn’s Animal Years bring a fresh face to indie roots rock. With influences ranging from early Kings of Leon and My Morning Jacket to Young The Giant and The Avett Brothers, Animal Years is driven by Mike McFadden’s crisp vocals and magnetic poise, featured on their debut record, Sun Will Rise, released May 6th, 2014.  Sun Will Rise showcases the delicacy and introspection behind songwriting and draws on the strengths of McFadden’s seasoned voice and multi-instrumental abilities."
+      }, 
       {
       "id":20,
       "name":"Animal Talk",
@@ -273,12 +273,12 @@
       "time":"12:00am",
       "stageId":"1",
       "stage":"Red Eyed Fly: Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
+      "url":"http://animaltalkmusic.com",
+      "mp3":"https://soundcloud.com/the-outlaw-roadshow/animal-talk-color-wheel",
       "thumb":"http://songchant.com/outlaw/images/animaltalk_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },     
+      "image":"http://songchant.com/outlaw/images/animaltalk.jpg",
+      "bio":"Since forming in 2011, Animal Talk has quickly made a mark on the Boston music scene with a sound often described as 'post-dance rock'. After recording its self-titled debut EP with Grammy winning producer/engineer Ducky Carlisle, Animal Talk gained the attention of Boston radio stations 101.7 WFNX, 92.9 FM, 88.9 WERS and many others. Along with radio, press began to take notice; The Boston Phoenix called Animal Talk one of Boston’s 'Best New Bands' while Stuff Magazine declared them 'Hottest Indie Rock'. "
+ },     
       {
       "id":21,
       "name":"My Education",
@@ -287,12 +287,12 @@
       "time":"8:30pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },    
+      "url":"http://www.myeducationmusic.com",
+      "mp3":"http://myeducation.bandcamp.com/",
+      "thumb":"http://songchant.com/outlaw/images/myeducation_th.jpg",
+      "image":"http://songchant.com/outlaw/images/myeducation.jpg",
+      "bio":"Since forming in 1999, the band's membership has expanded and contracted while the sonic landscapes have grown with each release. My Education has released 5 full-length albums, several singles, compilation appearances, and a 12'' vinyl collaboration with avant hip-hop duo Dalek.  Recordings have been remixed by memebers of bands Kinski, Pelican, The Red Sparrowes, and Dalek. Their previos albums include 5 Popes, Italian, Moody Dipper, and Bad Vibrations."
+      },    
       {
       "id":22,
       "name":"Pompeii",
@@ -301,12 +301,12 @@
       "time":"9:45pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },   
+      "url":"http://www.pompeiimusic.com/",
+      "mp3":"https://soundcloud.com/pompeiimusic/blueprint",
+      "thumb":"http://songchant.com/outlaw/images/pompeii_th.jpg",
+      "image":"http://songchant.com/outlaw/images/pompeii.jpg",
+      "bio":"Pompeii's signature sound of weaving delicate ambient openings into large dynamic crescendos is unmistakeable. The band is back from a five year hiatus with their third and most striking record to date, LOOM. Often compared to the likes of My Bloody Valentine to Sigur Rós and Mogwai, the band's sound still remains their own - atmospheric and effects driven."
+      },   
        {
       "id":23,
       "name":"Big Bill",
@@ -315,12 +315,12 @@
       "time":"10:45pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/outlaw/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },     
+      "url":"http://bigbillband.bandcamp.com/",
+      "mp3":"https://soundcloud.com/bigbillband/claws-in",
+      "thumb":"http://songchant.com/outlaw/images/bigbill_th.jpg",
+      "image":"http://songchant.com/outlaw/images/bigbill.jpg",
+      "bio":"Big Bill wants you to take a walk on the wild side. With their manic brand of “cartoon punk” and a mission to make even the biggest introvert cut loose, the band continues to win over new fans who they lovingly refer to as “Bill-ions."
+       },     
           {
       "id":24,
       "name":"Idyll Green",

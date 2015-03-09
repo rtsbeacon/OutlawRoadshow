@@ -22,7 +22,7 @@
   </feature>  -->
   <icon src="icon.png" />
   <gap:splash src="splash.png" />
-  <platform name="ios">
+  <!-- <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
     <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
     <icon src="resources/ios/icon/icon-40.png" width="40" height="40"/>
@@ -69,7 +69,7 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
-  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>  -->
       <!-- <feature name="InAppBrowser"> 
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
     </feature>

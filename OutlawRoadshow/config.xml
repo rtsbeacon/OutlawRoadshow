@@ -15,6 +15,7 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
+  <preference name="InAppBrowserStorageEnabled" value="true" />
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
@@ -68,4 +69,13 @@
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+      <feature name="InAppBrowser"> 
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" /> 
+    </feature>
+<plugins>
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+</plugins>    
 </widget>

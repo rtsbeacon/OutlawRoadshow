@@ -13,6 +13,11 @@ The Artists service returns an array of artist data
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}} - </span><span style="font-size: 14px; color: #BA1013">{{artist.stage}}  </span><br><br>
       <span style="font-family: sans-serif; font-size: 16px">{{artist.bio}}<br><br>
         <a href="#" onclick="window.open('http://www.theoutlawroadshow.com', '_system', 'location=yes');">TESTING!!!!!!!!!!!</a> 
+        <a href="#" onclick="window.open('artist.url', '_system', 'location=yes');">T</a>
+        <a href="#" onclick="window.open('{artist.url}', '_system', 'location=yes');">TEST!!!!</a>
+        <a href="#" onclick="window.open('{{artist.url}}', '_system', 'location=yes');">TES!!!!!!!!!!</a>
+        <a href="#" onclick="window.open({{artist.url}}, '_system', 'location=yes');">TE!!!!</a>
+        <a href="#" onclick="window.open(artist.url, '_system', 'location=yes');">TG!!!!!!!!!!!</a>
 <div class="button-bar">
     <!--	<a href="#/app/artists/{{artist.id}-1}" class="button icon-left ion-arrow-left-a button-clear button-dark"></a>  -->
   		<a ng-click="$window.open(artist.url, '_system')" class="button button-assertive">Site</a> 

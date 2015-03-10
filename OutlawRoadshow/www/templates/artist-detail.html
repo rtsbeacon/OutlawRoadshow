@@ -29,8 +29,8 @@ The Artists service returns an array of artist data
       
 <div class="button-bar">
     <!--	<a href="#/app/artists/{{artist.id}-1}" class="button icon-left ion-arrow-left-a button-clear button-dark"></a>  -->
-  		<a ng-click="$window.open(artist.url, '_system')" class="button button-assertive">Site</a> 
-  		<a ng-href="{{artist.mp3}}" target="_system" class="button button-assertive icon ion-play"></a> 
+  		<a ng-click="$window.open({{artist.url}}, '_system')" class="button button-assertive">Site</a> 
+  		<a ng-href="#" onclick="window.open({{artist.url}}, '__system'" class="button button-assertive icon ion-play"></a> 
   	<!--	<a href="#/app/artists/{{artist.id}+1}" class="button icon-right ion-arrow-right-a button-clear button-dark"></a>  -->
 
   </div>

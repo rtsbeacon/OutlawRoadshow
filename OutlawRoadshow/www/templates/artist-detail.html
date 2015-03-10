@@ -9,7 +9,13 @@ The Artists service returns an array of artist data
 <ion-view>
   <ion-content class="content-artist-detail" ng-repeat="artist in artists | filter: {id:artist}">
     <img ng-src="{{artist.image}}" style="padding-top: 10px"><br><br>
-
+<script>
+      function goToPage() {
+        var pageUrl = {{artist.url}};
+        window.open(pageUrl, '_system');
+      }
+  
+    </script>
       <span style="font-size: 22px">{{artist.name}}</span><br>
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}} - </span><span style="font-size: 14px; color: #BA1013">{{artist.stage}}  </span><br><br>
       <span style="font-family: sans-serif; font-size: 16px">{{artist.bio}}<br><br>

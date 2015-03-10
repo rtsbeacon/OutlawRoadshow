@@ -28,17 +28,6 @@ angular.module('starter.controllers', [])
 }])
 
 
-.controller('InAppBrowserCtrl', function($scope, $cordovaInAppBrowser) {
-  $scope.openurl = function(url) {
-    $cordovaInAppBrowser
-     .open(url, '_blank')
-     .then(function(event) {
-       // success
-     }, function(event) {
-       // error
-    });
-  };
-)}
 //.controller('ChatsCtrl', function($scope, Chats) {
 //  $scope.chats = Chats.all();
 //  $scope.remove = function(chat) {

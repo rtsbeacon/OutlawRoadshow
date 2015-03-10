@@ -16,7 +16,11 @@ The Artists service returns an array of artist data
         <a href="#" onclick="window.open(artist.url, '_system', 'location=yes')">Test 2</a><br><br>
         <a href="#" onclick="window.open({{artist.url}}, '_system', 'location=yes')">TESt 4</a><br><br>
         <a href="#" onclick="window.open('{{artist.url}}', '_system', 'location=yes')">TESt 4</a><br><br>
-        <a href="{{artist.url}}" onclick="window.open({{artist.url}}, '_system', 'location=yes')">TESt 4</a><br><br>
+        <a href="#" onclick="window.open({{artist.url}}, '_blank', 'location=yes')">TESt 4</a><br><br>
+        <a ng-href="{{artist.mp3}}" target="_system" ng-click="$window.open(artist.mp3, '_system')">test 5</a> <br><BR>
+<a ng-href="#" ng-click="$window.open(artist.mp3, '_system')">test 5</a> <br><br>
+<a ng-href="{{artist.mp3}}" target="_system" ng-click="$window.open({{artist.mp3}}, '_system')">test 5</a> <br><br>
+<a ng-href="#" ng-click="$window.open({{artist.mp3}}, '_system')">test 5</a> 
       
 <div class="button-bar">
     <!--	<a href="#/app/artists/{{artist.id}-1}" class="button icon-left ion-arrow-left-a button-clear button-dark"></a>  -->

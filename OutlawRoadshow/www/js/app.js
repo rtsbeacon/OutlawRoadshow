@@ -43,6 +43,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+  .state('app.news', {
+    url: "/news",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/news.html",
+    controller: 'ArtistsCtrl',
+        }
+      }
+    })
+
     .state('app.artists', {
       url: "/artists",
       views: {

@@ -205,7 +205,7 @@
       "stage":"Red Eyed Fly: Outdoor Patio",
       "url":"http://www.awaitrescue.com/",
       "mp3":"https://soundcloud.com/the-outlaw-roadshow/await-rescue-all-she-needs",
-      "thumb":"http://songchant.com/outlaw/images/awaitrescue_th.jpg",
+      "thumb":"http://songchant.com/outlaw/images/await_th.jpg",
       "image":"http://songchant.com/outlaw/images/awaitrescue.jpg",
       "bio":"Await Rescue will give you a break from whatever you are listening to.  They aren’t over-produced pop, don’t play into the retro crazes currently overtaking music, and cannot stomach the modern “Rock” sound that has embarrassed the genre they love so much.  Instead, Await Rescue’s sound can best be described as the stadium-sized hooks and songwriting sensibilities of Foo Fighters meet the aggression and raw energy of Every Time I Die. The Boston-based band was recently voted 'Best Live Show of 2014' by Do617 and was a finalist in the 35th Annual Rock 'N' Roll Rumble."
  },
@@ -331,8 +331,8 @@
       "stage":"Elysium",
       "url":"http://www.haciendaonline.net/",
       "mp3":"https://soundcloud.com/hacienda_tx/hacienda-savage?in=haciendamusic/sets/hacienda",
-      "thumb":"http://songchant.com/outlaw/images/idyllgreen_th.jpg",
-      "image":"http://songchant.com/outlaw/images/idyllgreen.jpg",
+      "thumb":"http://songchant.com/outlaw/images/hacienda_th.jpg",
+      "image":"http://songchant.com/outlaw/images/hacienda.jpg",
       "bio":"Brothers Rene (bass/vocals), Jaime (drums/vocals) and Abraham Villanueva (keyboards/vocals), are a Mexican-American Indie Rock trio blending a raw yet sophisticated style of pop music with harmonies reminiscent of the Beatles and Beach Boys. A demo of 6 songs landed in the hands of Dan Auerbach and soon after they were opening for The Black Keys, as well as opening/touring with great acts such as Dr. Dog, Kasabian, My Morning Jacket, Los Lonely Boys and many others."
  },  
           {
@@ -474,7 +474,91 @@
       "thumb":"http://songchant.com/outlaw/images/thesilks_th.jpg",
       "image":"http://songchant.com/otulaw/images/thesilks.jpg",
       "bio":"Rock and Roll may not be dead, but it does seem like there’s a priest leaning over its bed, reciting the last rites. However, if The Silks have anything to do with it, the body will soon be out of bed, bopping around the room. The Silks sound like the first band in ages who could conceivably appeal to kids who are horrified at having Miley shoved down their throats, to aging hipsters who once hung out at The Fillmore. Though they’re young, The Silks seem somehow ageless. They’ve learned their lessons. They know their history. They rock. They also roll. Look! The body is out of bed. And dig it: he’s dancing!"
-       }
+       },
+       {
+        "id":35,
+      "name":"Winston Cave",
+      "day":"Friday",
+      "dayId":"1",
+      "time":"4:30pm",
+      "stageId":"1",
+      "stage":"Red Eyed Fly - Outdoor Patio",
+      "url":"http://www.winstoncave.com/",
+      "mp3":"https://soundcloud.com/winston-cave/going-down-to-texas",
+      "thumb":"http://songchant.com/outlaw/images/winstoncave_th.jpg",
+      "image":"http://songchant.com/outlaw/images/winstoncave.jpg",
+      "bio":"American, Roots band from Texas" 
+      },
+      {
+        "id":36,
+      "name":"Three Rock Wolves",
+      "day":"Friday",
+      "dayId":"1",
+      "time":"9:00pm",
+      "stageId":"1",
+      "stage":"Red Eyed Fly - Outdoor Patio",
+      "url":"http://thestonefoxes.com/",
+      "mp3":"https://soundcloud.com/thestonefoxes/cold-like-a-killer",
+      "thumb":"http://songchant.com/outlaw/images/threerockwolves_th.jpg",
+      "image":"http://songchant.com/outlaw/images/threerockwolves.jpg",
+      "bio":"It's been decided, we don't wanna be anything but a Rock n Roll band. We wanna hit hard, go fast, get low, get moody, and just do what feels good. We are on a mission to bottle up all the energy, the impressive amount of sweat, and the outrageous fun we have playing live, and give it back to the rest of the humans as a record. We're six dudes who believe that Rock n Roll can move mountains, and we're gonna play it till we move one."
+       },
+         {
+        "id":37,
+      "name":"Skye Strickler",
+      "day":"Saturday",
+      "dayId":"2",
+      "time":"3:30pm",
+      "stageId":"1",
+      "stage":"Red Eyed Fly - Outdoor Patio",
+      "url":"hhttp://www.skyestrickler.com/",
+      "mp3":"https://soundcloud.com/skyestrickler/candy-shop-demo-acoustic",
+      "thumb":"http://songchant.com/outlaw/images/skyestrickler_th.jpg",
+      "image":"http://songchant.com/outlaw/images/skyestrickler.jpg",
+      "bio":"Hailing from a small farm in Kansas, Skye Strickler is a singer-songwriter with a charismatic personality in the Austin music scene. With a voice that is often described as “the tenor of Justin Timberlake and the precision of Sam Smith paired with the sultry soulfulness of Ella Fitzgerald”, it is easy to understand why no single genre could accurately capture the diversity of Skye’s music. OneRepublic. Timbaland. Emeli Sande. Adele. Sam Smith. This abridged list of influences only scratches the surface of his distinct acoustical palette, self defined as a genre-defying “Acoustic Pop”. This mesh of collective influences - ranging from classical, pop, alternative, and jazz - is prominently heard not only in his inspired original tunes, but also in his unique arrangements of contemporary radio hits."
+},
+         {
+        "id":38,
+      "name":"Coyote Union",
+      "day":"Saturday",
+      "dayId":"2",
+      "time":"7:30pm",
+      "stageId":"1",
+      "stage":"Red Eyed Fly - Outdoor Patio",
+      "url":"hhttp://www.coyoteunion.com/",
+      "mp3":"https://soundcloud.com/the-outlaw-roadshow/coyote-union-promise-land",
+      "thumb":"http://songchant.com/outlaw/images/coyoteunion_th.jpg",
+      "image":"http://songchant.com/outlaw/images/coyoteunion.jpg",
+      "bio":"What makes a good band great, what makes them stand out above all the rest, is their commitment to an infallible ideal, the one thing that they strive to do to change people through their music, giving them a deeper experience. For Coyote Union, that ideal is connection.  Connection to their fans, to their music and to each other. Coyote Union hopes to inspire, uplift and encourage their listener to overcome the “hard stuff in life” by providing musical therapy and songs that move people by sharing their own life experience, hardship and emotion.  People say they might be a little too nice, but they don’t care, they just want to reach as many people as they can with heartfelt words, and a positive spirit. Coyote Union’s sound is the culmination of their influences and experiences, drawing from the down home roots and punk-rock sensibility and need to create deep connections. Their style is a melting pot of rock, punk, blues, folk, Americana and a touch of classical and grunge, but no matter what the style, they always play from the heart. Rather than writing hits, Coyote Union’s aim is to reach people that need to hear their songs for inspiration, and to help them through the down times, writing about love, anger, passion, conquering, accomplishment, triumph, sadness and sorrow.  Both their dynamic music and deeply moving lyrics take listeners on an emotional roller coaster and pull on the heart strings."
+ },
+         {
+        "id":39,
+      "name":"PARLOUR TRICKS",
+      "day":"Saturday",
+      "dayId":"2",
+      "time":"12:00am",
+      "stageId":"3",
+      "stage":"Elysium",
+      "url":"http://www.parlourtricksmusic.com/",
+      "mp3":"https://soundcloud.com/parlour-tricks-music/requiem",
+      "thumb":"http://songchant.com/outlaw/images/parlourtricks_th.jpg",
+      "image":"http://songchant.com/outlaw/images/parlourtricks.jpg",
+      "bio":"Recipients of the Village Voice's award for Best Pop Band in New York 2014,  PARLOUR TRICKS (formerly Lily & The Parlour Tricks) has been hailed as 'the perfect combo of pretty and gritty' (The Wild Magazine). The sextet's seemingly incongruous combination of powerhouse angel-choir harmonies, thundering bass, drums and synth, and impressionistic guitar work makes for a kind of indie pop symmetry that somehow sounds '50's nostalgic, 90's familiar, and 2020 progressive all at once' (The Most Definitely). With their 'punchy, infectious, danceable rhythms, clean guitar, dirty synth, and heavenly voices' (Village Voice) it's not too hard to see why Spotify took a shine to them, calling their sound 'Vintage pop for the future'."
+       },
+       {
+               "id":40,
+      "name":"Johnson",
+      "day":"Friday",
+      "dayId":"1",
+      "time":"4:30pm",
+      "stageId":"1",
+      "stage":"Red Eyed Fly - Outdoor Patio",
+      "url":"",
+      "mp3":"",
+      "thumb":"http://songchant.com/outlaw/images/johnson_th.jpg",
+      "image":"http://songchant.com/outlaw/images/johnson.jpg",
+      "bio":"" 
+}
 
 
 ]

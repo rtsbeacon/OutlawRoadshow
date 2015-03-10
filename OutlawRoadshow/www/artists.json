@@ -357,26 +357,26 @@
       "time":"3:00pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },  
+      "url":"http://www.quietcompanymusic.com/transgressor",
+      "mp3":"https://soundcloud.com/quiet-company/seven-hells",
+      "thumb":"http://songchant.com/outlaw/images/quietcompany_th.jpg",
+      "image":"http://songchant.com/outlaw/images/quietcompany.jpg",
+      "bio":"Through the release of three LPs and endless touring, the Austin, Texas band Quiet Company has been making a name for themselves nationally with their energetic live shows and their anthemic, dynamic, indie rock which critics have called a mix of The Beatles, Death Cab for Cutie, Arcade Fire and Weezer. They’ve gained a huge fanbase while gathering praise from The New York Times, TIME, NPR, Last Call with Carson Daly, Paste Magazine, Houston Chronicle, Austin Chronicle and more. With its soaring guitars and throbbing bass lines drawing comparisons to Foo Fighters, Pavement and Manchester Orchestra, Quiet Company’s Transgressor will be leading the way as rock makes a return to form."
+      },  
        {
       "id":27,
-      "name":"Kiona",
+      "name":"KIONA",
       "day":"Saturday",
       "dayId":"2",
       "time":"6:00pm",
       "stageId":"1",
       "stage":"Red Eyed Fly - Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },    
+      "url":"http://kionamusic.com/",
+      "mp3":"https://soundcloud.com/kionamusic/the-sweet-life",
+      "thumb":"http://songchant.com/outlaw/images/kiona_th.jpg",
+      "image":"http://songchant.com/outlaw/images/kiona.jpg",
+      "bio":"KIONA is a band of 4 independent musicians from 4 different ways of thinking who came from very different places. From Nebraska to Texas to Louisiana to California, the formation of KIONA has been nothing short of a journey, a journey that has put them all on the long path to their first studio album release. Singer Todd Sapio and guitarist Scott Graham met at a concert while both living in California. After separately moving to Austin in 2006, the two reconnected and began writing music together. Shortly thereafter Scott’s brother, Matt Graham joined the fold along with Sean Hill. Now, after years of writing, recording, touring and pushing themselves along side their loyal fans, KIONA will soon release their highly anticipated full length studio album, 'Midnight Holiday'."
+},    
           {
       "id":28,
       "name":"SORNE",
@@ -385,12 +385,12 @@
       "time":"6:00pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    }, 
+      "url":"http://www.sorne.com/",
+      "mp3":"https://soundcloud.com/sorne/02-unnamed-master-01",
+      "thumb":"http://songchant.com/outlaw/images/sorne_th.jpg",
+      "image":"http://songchant.com/outlaw/images/sorne.jpg",
+      "bio":"Morgan Sorne is a multi-dimensional enigma. A prolific visual artist, musician, actor and filmmaker, boasting a four octave vocal range with perfect pitch. He brings listeners to tears with his unparalleled hypnotic angelic falsetto, and has churned crowds into a rocking frenzy with his bone-rattling dynamicism and range. He has performed and played at some of the most prestigious venues in America, winning over the hearts and minds of audiences at Irving Plaza in New York, the legendary Fillmore Theatre in San Francisco and the Fonda Theater in Los Angeles."
+      }, 
           {
       "id":29,
       "name":"Travel By Stars",
@@ -399,12 +399,12 @@
       "time":"7:15pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    }, 
+      "url":"http://travelbystars.com",
+      "mp3":"http://travelbystars.com/album/travel-by-stars/",
+      "thumb":"http://songchant.com/outlaw/images/travelbystars_th.jpg",
+      "image":"http://songchant.com/outlaw/images/travelbystars.jpg",
+      "bio":"Travel By Stars is a 7 piece Americana band formed in Austin, Texas in 2013."
+       }, 
       {
       "id":30,
       "name":"The Pills",
@@ -413,12 +413,12 @@
       "time":"8:30pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },    
+      "url":"http://www.pillsrock.com/",
+      "mp3":"https://soundcloud.com/corinashley/the-pills-down-with-the-beautiful",
+      "thumb":"http://songchant.com/outlaw/images/thepills_th.jpg",
+      "image":"http://songchant.com/outlaw/images/thepills.jpg",
+      "bio":"The Pills are turning heads wherever they travel with their over-the-top brand of power-pop. This brash young band from Boston executes their manic live shows with the poise of seasoned pros and the unrestrained energy of the most hyperactive garage combo. The wide variety of audiences all reacted positively to the high energy that the Pills bring to the stage. Sharp shards of guitar mix with lush vocal harmonies and an uncompromising sense of volume to leave the audience pleasantly stunned. This is music for fast driving that guarantees to make your toe shoot up in your shoe."
+       },    
       {
       "id":31,
       "name":"Great Ceasar",

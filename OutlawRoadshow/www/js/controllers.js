@@ -29,7 +29,7 @@ angular.module('starter.controllers', [])
 
 
 .controller('InAppBrowserCtrl', function($scope, $cordovaInAppBrowser) {
-  $scope.openjsonurlinnewbrowser = function(url) {
+  $scope.openurl = function(url) {
     $cordovaInAppBrowser
      .open(url, '_blank')
      .then(function(event) {
@@ -38,7 +38,7 @@ angular.module('starter.controllers', [])
        // error
     });
   };
-)};
+)}
 //.controller('ChatsCtrl', function($scope, Chats) {
 //  $scope.chats = Chats.all();
 //  $scope.remove = function(chat) {

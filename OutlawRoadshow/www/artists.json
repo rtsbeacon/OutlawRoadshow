@@ -95,7 +95,7 @@
       "mp3":"https://soundcloud.com/rslblog-com/mcalister-drive-hands-in",
       "thumb":"http://songchant.com/outlaw/images/christopherkrey_th.jpg",
       "image":"http://songchant.com/outlaw/images/christopherkrey.jpg",
-      "bio":" "
+      "bio":"Christoph Krey is the front man for McAlister Drive. McAlister Drive is ROCK for people who like Folk, Soul, and Pop. With a sound that inspires Jet and Tom Petty to walk down the aisle during an Arcade Fire song, you might find McAlister Drive to be the newborn lovechild… or participating in the open bar at the reception. Screaming and Kick’n in the Boston music scene, this band is corrupting the better part of the US and Canada to believe in an infused genre mindset. They have been called “chameleons of the stage” and an “organic chaos,” which might be confusing at first, but will certainly confirm your agreement when you step into any McAlister Drive concert. There are mustaches, grooves, serious personalities, and special guests at every show that will make you question your ability to be popular. "
        },
        {
       "id":98,
@@ -329,12 +329,12 @@
       "time":"12:00am",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },  
+      "url":"http://www.haciendaonline.net/",
+      "mp3":"https://soundcloud.com/hacienda_tx/hacienda-savage?in=haciendamusic/sets/hacienda",
+      "thumb":"http://songchant.com/outlaw/images/idyllgreen_th.jpg",
+      "image":"http://songchant.com/outlaw/images/idyllgreen.jpg",
+      "bio":"Brothers Rene (bass/vocals), Jaime (drums/vocals) and Abraham Villanueva (keyboards/vocals), are a Mexican-American Indie Rock trio blending a raw yet sophisticated style of pop music with harmonies reminiscent of the Beatles and Beach Boys. A demo of 6 songs landed in the hands of Dan Auerbach and soon after they were opening for The Black Keys, as well as opening/touring with great acts such as Dr. Dog, Kasabian, My Morning Jacket, Los Lonely Boys and many others."
+ },  
           {
       "id":25,
       "name":"K Phillips & The Concho Pearls",
@@ -427,12 +427,12 @@
       "time":"9:45pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },     
+      "url":"http://www.greatcaesarband.com/",
+      "mp3":"https://soundcloud.com/great-caesar/dont-ask-me-why",
+      "thumb":"http://songchant.com/outlaw/images/greatceasar_th.jpg",
+      "image":"http://songchant.com/outlaw/images/greatceasar.jpg",
+      "bio":"Great Caesar aims for the heart with a vulnerable blend of brass, voice, and indie-rock, drawing from acts like Arcade Fire and Beirut to create music that confronts the things that really matter: love, legacy, and the complexity of human relationships."
+      },     
         {
       "id":32,
       "name":"The Suffers",
@@ -441,12 +441,12 @@
       "time":"11:00pm",
       "stageId":"3",
       "stage":"Elysium",
-      "url":"http://",
-      "mp3":"http://",
-      "thumb":"http://songchant.com/outlaw/images/_th.jpg",
-      "image":"http://songchant.com/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    },    
+      "url":"http://www.thesuffers.com/",
+      "mp3":"https://soundcloud.com/the-outlaw-roadshow/the-suffers-make-some-room",
+      "thumb":"http://songchant.com/outlaw/images/thesuffers_th.jpg",
+      "image":"http://songchant.com/outlaw/images/thesuffers.jpg",
+      "bio":"The Suffers are a ten-piece band from Houston, TX who are redefining the sound of Gulf Coast Soul, intertwining elements of Classic American Soul with Rock & Roll. Both sonically and visually arresting, the large ensemble packs each position of the rhythm section and horn section with a level of talent and taste that provides the perfect foundation for singer Kam Franklin's massive voice. The band's sincerity and emotion are laid bare in their music, which has garnered an audience so broad and varied that they may prove to be the panacea for a jaded and stratified live music scene. The Suffers will be releasing their debut LP Make Some Room in 2015, hitting the road aggressively."
+   },   
        {
       "id":33,
       "name":"Hollis Brown",
@@ -469,12 +469,12 @@
       "time":"10:30pm",
       "stageId":"1",
       "stage":"Red Eyed Fly - Outdoor Patio",
-      "url":"http://",
-      "mp3":"http://",
+      "url":"http://www.thesilksmusic.com/",
+      "mp3":"https://soundcloud.com/rslblog-com/the-silks-livin-in-the-world",
       "thumb":"http://songchant.com/outlaw/images/thesilks_th.jpg",
-      "image":"http://songchant.com/otulaw/images/image.jpg",
-      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam efficitur leo, at posuere lacus fringilla eu. In pellentesque neque eget justo vulputate, quis imperdiet magna egestas. Suspendisse at tincidunt elit, a ornare risus. Cras ut elit egestas, blandit tellus quis, consectetur neque. Aliquam ullamcorper, metus vel ultrices facilisis, lorem orci suscipit massa, vitae rutrum urna ante vel dui. Pellentesque vel tortor aliquam nisi faucibus blandit. Nulla nunc odio, fermentum at consectetur in, condimentum non ipsum. Donec at augue commodo, eleifend nisl vitae, eleifend nulla. Nulla magna diam, semper id rhoncus malesuada, efficitur id lectus."  
-    }
+      "image":"http://songchant.com/otulaw/images/thesilks.jpg",
+      "bio":"Rock and Roll may not be dead, but it does seem like there’s a priest leaning over its bed, reciting the last rites. However, if The Silks have anything to do with it, the body will soon be out of bed, bopping around the room. The Silks sound like the first band in ages who could conceivably appeal to kids who are horrified at having Miley shoved down their throats, to aging hipsters who once hung out at The Fillmore. Though they’re young, The Silks seem somehow ageless. They’ve learned their lessons. They know their history. They rock. They also roll. Look! The body is out of bed. And dig it: he’s dancing!"
+       }
 
 
 ]

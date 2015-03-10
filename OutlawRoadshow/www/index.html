@@ -24,13 +24,17 @@
     <script src="js/services.js"></script>
     <script type="text/javascript" src="js/PushNotification.js"></script>
  <script>
-      var URL = 'http://www.cnn.com'
+      function goToPage() {
+        var pageUrl = 'http://www.cnn.com';
+        window.open(pageUrl);
+      }
+  
     </script>
 
   </head>
 
   <body ng-app="starter">
- 
+
     <!--
       The views will be rendered in the <ion-nav-view> directive below
       Templates are in the /templates folder (but you could also

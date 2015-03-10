@@ -5,6 +5,9 @@ The ArtistsCtrl pulls data from the Artists service (service.js)
 The Artists service returns an array of artist data
 -->
 <!-- I am editing the file just to see where it shows up in git-->
+<script>
+      var URL = {{artist.url}}
+    </script>
 <ion-view>
   <ion-content class="content-artist-detail" ng-repeat="artist in artists | filter: {id:artist}">
     <img ng-src="{{artist.image}}" style="padding-top: 10px"><br><br>
@@ -16,7 +19,9 @@ The Artists service returns an array of artist data
         <a href="#" onclick="window.open(artist.mp3, '_system', 'location=yes')">Test 2</a><br><br>
 
         <a href="#" onclick="window.open(\""{{artist.mp3}}"\", '_system', 'location=yes')">{{artist.mp3}}</a><br><br><br>
+
 <a href="#" onclick="window.open(URL, '_system', 'location=yes')">URL var test</a><br><br>
+
         <a href="#" onclick="window.open('{{artist.mp3}}', '_system', 'location=yes')">TESt 4</a><br><br>
 
         <a href="#" onclick="window.open({{artist.mp3}}, '_blank', 'location=yes')">TESt 4</a><br><br>
@@ -31,9 +36,7 @@ The Artists service returns an array of artist data
   		<a ng-click="$window.open(artist.url, '_system')" class="button button-assertive">Site</a> 
   		<a ng-href="{{artist.mp3}}" target="_system" class="button button-assertive icon ion-play"></a> 
   	<!--	<a href="#/app/artists/{{artist.id}+1}" class="button icon-right ion-arrow-right-a button-clear button-dark"></a>  -->
-	<script type="text/javascript">
-      var URL = {{artist.url}}
-    </script>
+
   </div>
 
  <!--    <p><a >Listen to {{artist.mp3name}}</a></p>  -->

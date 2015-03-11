@@ -546,7 +546,7 @@
       "bio":"Recipients of the Village Voice's award for Best Pop Band in New York 2014,  PARLOUR TRICKS (formerly Lily & The Parlour Tricks) has been hailed as 'the perfect combo of pretty and gritty' (The Wild Magazine). The sextet's seemingly incongruous combination of powerhouse angel-choir harmonies, thundering bass, drums and synth, and impressionistic guitar work makes for a kind of indie pop symmetry that somehow sounds '50's nostalgic, 90's familiar, and 2020 progressive all at once' (The Most Definitely). With their 'punchy, infectious, danceable rhythms, clean guitar, dirty synth, and heavenly voices' (Village Voice) it's not too hard to see why Spotify took a shine to them, calling their sound 'Vintage pop for the future'."
        },
        {
-               "id":40,
+      "id":40,
       "name":"Johnson",
       "day":"Friday",
       "dayId":"1",
@@ -558,6 +558,34 @@
       "thumb":"http://songchant.com/outlaw/images/johnson_th.jpg",
       "image":"http://songchant.com/outlaw/images/johnson.jpg",
       "bio":"" 
+},
+       {
+      "id":41,
+      "name":"Seán Barna",
+      "day":"Friday",
+      "dayId":"1",
+      "time":"4:30pm",
+      "stageId":"1",
+      "stage":"Red Eyed Fly - Outdoor Patio",
+      "url":"http://seanbarna.com",
+      "mp3":"https://soundcloud.com/seanbarna/come_at_me_gently",
+      "thumb":"http://songchant.com/outlaw/images/seanbarna_th.jpg",
+      "image":"http://songchant.com/outlaw/images/seanbarna.jpg",
+      "bio":"Seán Barna is a singer, songwriter, and drummer living in Washington, D.C. His debut EP, Cutter Street, is an urgent and powerful collection of songs recorded at The Fortress in Downtown Los Angeles in late-2013 and early-2014, while Barna was jobless and living on his friend's couch. He is currently recording a followup full length LP, tentatively called Monogamy and Other Disappointments, due out in the summer of 2015."
+},
+       {
+      "id":42,
+      "name":"Seth Wood",
+      "day":"Friday",
+      "dayId":"1",
+      "time":"4:30pm",
+      "stageId":"1",
+      "stage":"Red Eyed Fly - Outdoor Patio",
+      "url":"http://www.sethwood.net/",
+      "mp3":"https://soundcloud.com/sethwoodmusic/san-francisco",
+      "thumb":"http://songchant.com/outlaw/images/johnson_th.jpg",
+      "image":"http://songchant.com/outlaw/images/johnson.jpg",
+      "bio":"In his latest EP San Francisco, Seth Wood brings his gospel background to picnic with his own folk-inspired style, where audiences can feast on words that he has been carefully harvesting for months. Ripe and ready for listening, this 2013 release, produced by Tom Laune, echoes of a season where Wood wrestled extensively with his dreams and impending realities. When friend DJ Lipscomb suggested he begin a Kickstarter campaign to fund the EP, Wood consenting under one condition: If it doesn’t happen, this is the world signaling for me to not do music anymore." 
 }
 
 

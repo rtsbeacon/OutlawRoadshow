@@ -5,6 +5,41 @@ max-width:100%;
 height:auto;
 }
 
+/* unvisited link */
+a:link {
+    color: #444;
+}
+
+/* visited link */
+a:visited {
+    color: #444;
+}
+
+/* mouse over link */
+a:hover {
+    color: #BA1013;
+}
+
+/* selected link */
+a:active {
+    color: #BA1013;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .item .item-content {
   background-color: transparent !important;
 }

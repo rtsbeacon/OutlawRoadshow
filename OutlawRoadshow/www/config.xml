@@ -3,7 +3,7 @@
 <widget id="com.outlawroadshow.ionic.push" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap= "http://phonegap.com/ns/1.0">
   <name>The Outlaw Roadshow</name>
   <description>
-        An Ionic Framework and Cordova project.
+        An app for fans and Outlaws
     </description>
   <author email="rtsbeacon@gmail.com" href="http://ionicframework.com/">
       The Outlaw Roadshow

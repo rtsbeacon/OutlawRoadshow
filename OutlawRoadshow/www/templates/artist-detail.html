@@ -24,7 +24,9 @@ The Artists service returns an array of artist data
         <a ng-href="{{artist.url}}" target="_system" ng-click="$window.open(artist.url, '_system')">this has the variable in the href not the onclick and it pulls the right url but does not open in new window</a> <br><BR>
         <a ng-href="#" ng-click="$window.open(artist.url, '_system')">variable only</a> <br><br>
         <a href="#" onclick="goToPage()">gotopage test</a><br><br>
-        <a ng-href="#" ng-click="window.open({{artist.url}}, '_system')">ng-href instead of href</a> -->
+        <a ng-href="#" ng-click="window.open({{artist.url}}, '_system')">ng-href instead of href</a> <br><br>  -->
+         <a ng-href="#" ng-click="$window.open(artist.url, '_system')">This is my last hope to get links working</a><br><br>
+         
       
 <!--<div class="button-bar">
    <a href="#/app/artists/{{artist.id}-1}" class="button icon-left ion-arrow-left-a button-clear button-dark"></a>  -->

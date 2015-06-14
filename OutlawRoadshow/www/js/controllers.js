@@ -8,16 +8,29 @@ angular.module('starter.controllers', [])
   $scope.pushRegister = function() {
     alert('Registering...');
 
-    $ionicPush.register({
-      canShowAlert: false,
-      onNotification: function(notification) {
-        // Called for each notification for custom handling
-        $scope.lastNotification = JSON.stringify(notification);
-      }
-    }).then(function(deviceToken) {
-      $scope.token = deviceToken;
-    });
+$ionicPush.register({
+  canShowAlert: true, //Can pushes show an alert on your screen?
+  canSetBadge: true, //Can pushes update app icon badges?
+  canPlaySound: true, //Can notifications play a sound?
+  canRunActionsOnWake: true, //Can run actions outside the app,
+  onNotification: function(notification) {
+    // Handle new push notifications here
+    // console.log(notification);
+    return true;
   }
+});    
+}
+
+//    $ionicPush.register({
+//      canShowAlert: false,
+//      onNotification: function(notification) {
+        // Called for each notification for custom handling
+//        $scope.lastNotification = JSON.stringify(notification);
+//      }
+//    }).then(function(deviceToken) {
+//      $scope.token = deviceToken;
+//    });
+//  }
   $scope.identifyUser = function() {
     alert('Identifying');
     console.log('Identifying user');
@@ -37,6 +50,7 @@ angular.module('starter.controllers', [])
     
   }
 })
+
 
 
 .controller('AccountCtrl', function($scope) {

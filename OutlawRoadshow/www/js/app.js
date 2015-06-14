@@ -5,7 +5,27 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', [
+  'ionic',
+  'ngCordova',
+  'ionic.service.core',
+  'ionic.service.push',
+  'starter.controllers',
+  'starter.services'
+])
+
+//this is code for ionic push
+//.config(['$ionicAppProvider', function($ionicAppProvider) {
+  // Identify app
+//  $ionicAppProvider.identify({
+    // The App ID (from apps.ionic.io) for the server
+//    app_id: 'a5d01814',
+    // The public API key all services will use for this app
+//    api_key: 'b81ad25ed3c897f69b681302da3d7bcbaea13773a1673428',
+        // The GCM project number
+//    gcm_id: '234816071019'
+//  });
+//}])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -47,7 +67,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: "/news",
     views: {
       'menuContent': {
-        templateUrl: "templates/news.html",
+        templateUrl: "templates/nashville.html",
     controller: 'ArtistsCtrl',
         }
       }

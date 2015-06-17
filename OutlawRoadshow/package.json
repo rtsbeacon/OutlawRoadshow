@@ -22,8 +22,5 @@
     "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git",
     "org.apache.cordova.inappbrowser",
     "https://github.com/phonegap-build/PushPlugin.git"
-  ],
-  "cordovaPlatforms": [
-    "ios"
   ]
 }

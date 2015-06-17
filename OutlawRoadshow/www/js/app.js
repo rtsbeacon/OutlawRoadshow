@@ -15,18 +15,17 @@ angular.module('starter', [
 ])
 
 //this is code for ionic push
-.config(['$ionicAppProvider', function($ionicAppProvider) {
+//.config(['$ionicAppProvider', function($ionicAppProvider) {
   // Identify app
-  $ionicAppProvider.identify({
+//  $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
-    app_id: 'a5d01814',
+//    app_id: 'a5d01814',
     // The public API key all services will use for this app
-    api_key: 'b81ad25ed3c897f69b681302da3d7bcbaea13773a1673428',
+//    api_key: 'b81ad25ed3c897f69b681302da3d7bcbaea13773a1673428',
         // The GCM project number
-    gcm_id: '234816071019',
-    dev_push: true
-  });
-}])
+//    gcm_id: '234816071019'
+//  });
+//}])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -54,8 +53,6 @@ angular.module('starter', [
   
   })
 
- .
-
   .state('app.schedule', {
     url: "/schedule",
     views: {
@@ -68,15 +65,6 @@ angular.module('starter', [
 
   .state('app.news', {
     url: "/news",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/news.html",
-    controller: 'ArtistsCtrl',
-        }
-      }
-    })
-  state('app.nashville', {
-    url: "/nashville",
     views: {
       'menuContent': {
         templateUrl: "templates/nashville.html",

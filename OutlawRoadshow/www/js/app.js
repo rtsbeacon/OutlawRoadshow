@@ -54,6 +54,8 @@ angular.module('starter', [
   
   })
 
+ .
+
   .state('app.schedule', {
     url: "/schedule",
     views: {
@@ -66,6 +68,15 @@ angular.module('starter', [
 
   .state('app.news', {
     url: "/news",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/news.html",
+    controller: 'ArtistsCtrl',
+        }
+      }
+    })
+  state('app.nashville', {
+    url: "/nashville",
     views: {
       'menuContent': {
         templateUrl: "templates/nashville.html",

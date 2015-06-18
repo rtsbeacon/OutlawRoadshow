@@ -84,6 +84,7 @@ angular.module('starter', [
       }
     })
 
+
     .state('app.artists', {
       url: "/artists",
       views: {

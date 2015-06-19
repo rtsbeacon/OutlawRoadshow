@@ -23,7 +23,7 @@
       "stage":"",
       "url":"'https://twitter.com/thersl'",
       "url2":"window.open('https://twitter.com/thersl', '_system', 'location=yes')",
-      "url3":"<a href=\"#\" onclick=\"window.open('https://twitter.com/thersl', '_system', 'location=yes')\">",
+      "url3":"https://twitter.com/thersl",
       "mp3":"https://soundcloud.com/skunkmello/backseat-gypsy-1",
       "thumb":"http://songchant.com/outlaw/images/skunkmello_th.jpg",
       "image":"http://songchant.com/outlaw/images/skunkmello.jpg",

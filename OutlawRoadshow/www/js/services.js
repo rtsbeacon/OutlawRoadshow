@@ -5,7 +5,7 @@ angular.module('starter.services', [])
    var artists = [];
     return {
       getArtists: function(){
-        return $http.get("http://songchant.com/outlaw/artists.json").then(function(response){
+        return $http.get("http://songchant.com/outlaw/dev/artists.json").then(function(response){
           artists = response;
           return artists;
           console.log(artists);

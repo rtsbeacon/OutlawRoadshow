@@ -1,7 +1,7 @@
 <ion-view>
 <ion-content>
     <div class="list">
-    <div class="item item-divider">FRIDAY - Red Eyed Fly: Outdoor Patio</div>
+    <div class="item item-divider">FRIDAY - Mercy</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:1} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -10,7 +10,7 @@
       </ion-item>
 
    
-    <div class="item item-divider">FRIDAY - Red Eyed Fly: Indoor Lounge</div>
+    <div class="item item-divider">FRIDAY - High Watt</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:2} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -19,16 +19,16 @@
       </ion-item>
 
 
-    <div class="item item-divider">FRIDAY - Elysium</div>
+ <!--   <div class="item item-divider">FRIDAY - Elysium</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:3} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
        <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}}<br></span>
       <span style="font-size: 14px; color: #BA1013">{{artist.stage}}</span>
-      </ion-item>
+      </ion-item>  -->
 
  
-    <div class="item item-divider">SATURDAY - Red Eyed Fly: Outdoor Patio</div>
+    <div class="item item-divider">SATURDAY - Mercy</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists  | filter: {dayId:2, stageId:1} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
        <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -37,7 +37,7 @@
       </ion-item>
 
 
-    <div class="item item-divider">SATURDAY - Red Eyed Fly: Indoor Lounge</div>
+    <div class="item item-divider">SATURDAY - High Watt</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:2, stageId:2} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -46,13 +46,13 @@
       </ion-item>
 
 
-    <div class="item item-divider">SATURDAY - Elysium</div>
+<!--    <div class="item item-divider">SATURDAY - Elysium</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:2, stageId:3} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
        <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}}<br></span>
       <span style="font-size: 14px; color: #BA1013">{{artist.stage}}</span>
-      </ion-item>
+      </ion-item>-->
 
 
 </div>

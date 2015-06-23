@@ -12,8 +12,8 @@ The Artists service returns an array of artist data
     <span style="font-size: 22px">{{artist.name}}</span><br>
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}} - </span><span style="font-size: 14px; color: #BA1013">{{artist.stage}}  </span><br><br>
       <span style="font-family: sans-serif; font-size: 16px">{{artist.bio}}<br><br>
-        Visit {{artist.name}}'s <a href="{{artist.url}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">site</a> <br><br>
-        Listen to <a href="{{artist.mp3}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">{{artist.mp3name}}</a> <br><br>
+        Visit {{artist.name}}'s <a style="color:red" href="{{artist.url}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">site</a> <br><br>
+        Listen to <a style="color:red" href="{{artist.mp3}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">{{artist.mp3name}}</a> <br><br>
         <a class="button button-icon icon ion-social-facebook" href="{{artist.fb}}" onclick="window.open(this.href, '_blank', 'location=yes');return false;"></a><a class="button button-icon icon ion-social-twitter"href="{{artist.twitter}}" onclick="window.open(this.href, '_system', 'location=yes');return false;"></a><br><br><br>
       
 <!--<div class="button-bar">

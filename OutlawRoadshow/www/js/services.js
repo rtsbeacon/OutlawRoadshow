@@ -28,7 +28,7 @@ angular.module('starter.services', [])
       getNews: function(){
         return $http.get("http://songchant.com/outlaw/dev/news.json").then(function(response){
           artists = response;
-          return newss;
+          return news;
           console.log(news);
         });
       },

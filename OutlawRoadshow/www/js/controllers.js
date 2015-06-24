@@ -76,12 +76,12 @@ angular.module('starter.controllers', [])
      });
 }])
 
-.controller('NewsCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://songchant.com/outlaw/dev/news.json").success(function(data) {
-         console.log(data);
-         $scope.news = data;
-     });
-}])
+//.controller('NewsCtrl', ['$scope', '$http', function($scope, $http) {
+//     $http.get("http://songchant.com/outlaw/dev/news.json").success(function(data) {
+//         console.log(data);
+//         $scope.news = data;
+//     });
+//}])
 
 
 //.controller('ChatsCtrl', function($scope, Chats) {

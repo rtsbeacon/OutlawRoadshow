@@ -20,7 +20,7 @@ angular.module('starter.services', [])
         return null;
       }
     }
- });
+ })
 
   .factory('News', function($http) {
    var news = [];

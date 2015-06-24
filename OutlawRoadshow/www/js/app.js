@@ -24,7 +24,7 @@ angular.module('starter', [
     api_key: 'b81ad25ed3c897f69b681302da3d7bcbaea13773a1673428',
         // The GCM project number
     gcm_id: '234816071019',
-    dev_push: true
+    dev_push: false
   });
 }])
 
@@ -100,7 +100,7 @@ angular.module('starter', [
   		views: {
        'menuContent': {
   	     templateUrl: 'templates/artist-detail.html',
-  	     controller: 'ArtistDetailCtrl', 
+  	     controller: 'ArtistsCtrl', 
 		//controller: function ($scope, $stateParams) {
 			//console.log($stateParamas),
         // $scope.artistId = $stiateParams.artistId;

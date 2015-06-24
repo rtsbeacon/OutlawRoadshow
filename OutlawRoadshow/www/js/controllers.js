@@ -73,6 +73,7 @@ angular.module('starter.controllers', [])
      $http.get("http://songchant.com/outlaw/dev/artists.json").success(function(data) {
          console.log(data);
          $scope.artists = data;
+         $scope.stage = data;
      });
 }])
 

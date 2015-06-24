@@ -21,6 +21,27 @@ angular.module('starter.services', [])
       }
     }
  });
+
+  .factory('News', function($http) {
+   var news = [];
+    return {
+      getNews: function(){
+        return $http.get("http://songchant.com/outlaw/dev/news.json").then(function(response){
+          artists = response;
+          return newss;
+          console.log(news);
+        });
+      },
+      getNew: function(newId) {
+        for (i = 0; i < newss.length; i++) {
+          if (newss[i].id === parseInt(newId)) {
+            return news[i];
+          }
+        }
+        return null;
+      }
+    }
+ });
  
 
  //  return {

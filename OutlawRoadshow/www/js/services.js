@@ -33,8 +33,8 @@ angular.module('starter.services', [])
         });
       },
       getNew: function(newId) {
-        for (i = 0; i < newss.length; i++) {
-          if (newss[i].id === parseInt(newId)) {
+        for (i = 0; i < news.length; i++) {
+          if (news[i].id === parseInt(newId)) {
             return news[i];
           }
         }

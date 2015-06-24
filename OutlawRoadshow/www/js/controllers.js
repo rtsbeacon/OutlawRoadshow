@@ -73,7 +73,13 @@ angular.module('starter.controllers', [])
      $http.get("http://songchant.com/outlaw/dev/artists.json").success(function(data) {
          console.log(data);
          $scope.artists = data;
-         $scope.stage = data;
+     });
+}])
+
+.controller('NewsCtrl', ['$scope', '$http', function($scope, $http) {
+     $http.get("http://songchant.com/outlaw/dev/news.json").success(function(data) {
+         console.log(data);
+         $scope.news = data;
      });
 }])
 

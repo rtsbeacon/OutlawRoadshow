@@ -69,7 +69,7 @@ angular.module('starter', [
     views: {
       'menuContent': {
         templateUrl: "templates/news.html",
-    controller: 'ArtistsCtrl',
+    controller: 'NewsCtrl',
         }
       }
     })

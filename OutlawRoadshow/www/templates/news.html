@@ -9,8 +9,20 @@ The Artists service returns an array of artist data
   <ion-content class="content-artist-detail">
   <span style="style="font-size: 20px><br>
   	<ul class="list">
-    	<li class="item">
+
+
+ <ion-item class="item-thumbnail-left" ng-repeat="topic in topics | orderBy: 'id'" type="item-text-wrap">
+      <span style="font-size: 14px; color: #b0b0b0">{{news.topic}}<br></span>
+ </ion-item>
+
+ <li class="item">
    <a href="#" onclick="window.open('https://twitter.com/thersl', '_system', 'location=yes')">-  Tweets from @theRSL</a>
+</li>
+<li class="item">
+	{{news.article1}}
+</li>
+<li class="item">
+	{{news.article2}}
 </li>
 <li class="item">
   <a href="#" onclick="window.open('https://open.spotify.com/user/outlaw_roadshow_radio/playlist/2NwMepIzdBYm5lBLRgUNjx', '_system', 'location=yes')">-  Spotify playlist of artists from The Outlaw Roadshow 2015 - Austin</a>

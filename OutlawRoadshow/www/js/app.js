@@ -100,7 +100,7 @@ angular.module('starter', [
   		views: {
        'menuContent': {
   	     templateUrl: 'templates/artist-detail.html',
-  	     controller: 'ArtistsCtrl', 
+  	     controller: 'ArtistDetailCtrl', 
 		//controller: function ($scope, $stateParams) {
 			//console.log($stateParamas),
         // $scope.artistId = $stiateParams.artistId;

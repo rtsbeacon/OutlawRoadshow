@@ -7,37 +7,41 @@ The Artists service returns an array of artist data
 <!-- I am editing the file just to see where it shows up in git-->
 <ion-view>
   <ion-content class="content-artist-detail">
-   <span style="font-size: 22px">News</span><br>
+   <span style="font-size: 22px"><br>News</span><br>
   <span style="font-family: sans-serif; font-size: 16px; color: #BA1013"><br>
   	<ion-list>
   	 <ion-item class="i" ng-repeat="new in news | orderBy: 'id'" type="item-text-wrap">{{new.topic}}<br></ion-item>
  	</ion-list>
  </span>	
- <span style="font-size: 22px">Links</span><br>
+ <span style="font-size: 22px"><br>Links</span><br>
  <span style="font-family: sans-serif; font-size: 16px">
 
- 	<div class="list card">
-
-<!--<ul class="list">
-<li class="item">-->
+ 	<ul class="list">
+<li class="item">
  <a href="#" class="item item-icon-left" onclick="window.open('https://twitter.com/thersl', '_system', 'location=yes')">
-   <i class="icon ion-home"></i>
+   <i class="icon ion-social-twitter"></i>
    Tweets from @theRSL
 </a>
-<!--</li>-->
+</li>
+<li class="item">
  <a href="#" class="item item-icon-left" onclick="window.open('https://open.spotify.com/user/outlaw_roadshow_radio/playlist/2NwMepIzdBYm5lBLRgUNjx', '_system', 'location=yes')">
- 	<i class="icon ion-home"></i>
-   Spotify playlist of artists from The Outlaw Roadshow 2015 - Austin
+ 	<i class="icon ion-headphones"></i>
+   Spotify playlist from Austin 2015
 </a>
+</li>
+<li class="item">
 <a href="#" class="item item-icon-left" onclick="window.open('http://www.theoutlawroadshow.com', '_system', 'location=yes')">
 	<i class="icon ion-home"></i>
 	The Outlaw Roadshow
 </a>
+</li>
+<li class="item">
 <a href="#" class="item item-icon-left" onclick="window.open('http://wemfradio.com/category/shows/outlawroadshow/', '_system', 'location=yes')">
-	<i class="icon ion-home"></i>
-	Podcasts from The Outlaw Roadshow Radio
+	<i class="icon ion-ipod"></i>
+	Podcasts from <br>The Outlaw Roadshow Radio
 </a>
-</div>
+</li>
+</ul>
 </span>
     
   </ion-content>

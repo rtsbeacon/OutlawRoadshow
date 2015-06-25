@@ -8,9 +8,10 @@ The Artists service returns an array of artist data
 <ion-view>
   <ion-content class="content-artist-detail">
    <span style="font-size: 22px"><br>News</span><br>
-  	<span style="font-family: sans-serif; font-size: 16px; color: #BA1013">
   	<ion-list>
-  	 <ion-item class="i" ng-repeat="new in news | orderBy: 'id'" type="item-text-wrap">{{new.topic}}</ion-item>
+  	 <ion-item class="item-thumbnail-left" ng-repeat="new in news | orderBy: 'id'" type="item-text-wrap">
+  	 	<span style="font-family: sans-serif; font-size: 16px; color: #BA1013">{{new.topic}}</span>
+  	 </ion-item>
  	</ion-list>
  </span>	
  <span style="font-size: 22px"><br>Links</span><br>

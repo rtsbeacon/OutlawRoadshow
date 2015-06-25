@@ -7,9 +7,9 @@ The Artists service returns an array of artist data
 <!-- I am editing the file just to see where it shows up in git-->
 <ion-view>
   <ion-content class="content-artist-detail">
-   <span style="font-size: 22px"><br>News</span><br>
+   <span style="font-size: 22px"><br>News</span><br><br>
   	<ion-list>
-  	 <ion-item class="item-thumbnail-left" ng-repeat="new in news | orderBy: 'id'" type="item-text-wrap">
+  	 <ion-item class="item item-text-wrap" ng-repeat="new in news | orderBy: 'id'">
   	 	<span style="font-family: sans-serif; font-size: 16px; color: #BA1013">{{new.topic}}</span>
   	 </ion-item>
  	</ion-list>
@@ -24,6 +24,5 @@ The Artists service returns an array of artist data
 </div>
 </ion-content>
 </ion-view> 
-
 
 

@@ -17,13 +17,13 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
-  <preference name="InAppBrowserStorageEnabled" value="true" />
-  <gap:plugin name="org.apache.cordova.core.camera" />
+  <preference name="InAppBrowserStorageEnabled" value="true"/>
+  <gap:plugin name="org.apache.cordova.core.camera"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
   <icon src="icon.png" />
-  <gap:splash src="splash.png" />
+  <gap:splash src="splash.png"/>
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
     <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
@@ -71,34 +71,7 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
-  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-   <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
-      <intent-filter>
-          <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-          <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-            <category android:name="com.outlawroadshow.ionic.push" />
-      </intent-filter>
-    </receiver>
-  </gap:config-file>
-      <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
-<gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
- </gap:config-file>
-  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-    <activity android:name="com.arellomobile.android.push.PushWebview" />
-  </gap:config-file>
-    <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-    <activity android:name="com.arellomobile.android.push.MessageActivity" />
-  </gap:config-file>  
-  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-    <activity android:name="com.arellomobile.android.push.PushHandlerActivity" />
-  </gap:config-file>
-  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-    <service android:name="com.arellomobile.android.push.PushGCMIntentService" />
-  </gap:config-file>
-  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-     <service android:name="com.plugin.gcm.GCMIntentService" />
-  </gap:config-file>
+  <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io"/>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
       <feature name="InAppBrowser"> 
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
@@ -106,7 +79,5 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>
-
-
-    <gap:plugin name="org.apache.cordova.inappbrowser" />   
+    <gap:plugin name="org.apache.cordova.inappbrowser"/>   
 </widget>

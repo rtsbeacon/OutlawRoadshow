@@ -69,6 +69,36 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+   <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+      <intent-filter>
+          <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+          <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            <category android:name="com.outlawroadshow.ionic.push" />
+      </intent-filter>
+    </receiver>
+  </gap:config-file>
+    <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+        <receiver android:name="com.arellomobile.android.push.AlarmReceiver" />
+  </gap:config-file>
+<gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+ </gap:config-file>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <activity android:name="com.arellomobile.android.push.PushWebview" />
+  </gap:config-file>
+    <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <activity android:name="com.arellomobile.android.push.MessageActivity" />
+  </gap:config-file>  
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <activity android:name="com.arellomobile.android.push.PushHandlerActivity" />
+  </gap:config-file>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <service android:name="com.arellomobile.android.push.PushGCMIntentService" />
+  </gap:config-file>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+     <service android:name="com.plugin.gcm.GCMIntentService" />
+  </gap:config-file>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
       <feature name="InAppBrowser"> 
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>

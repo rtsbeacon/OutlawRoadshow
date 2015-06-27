@@ -21,7 +21,9 @@
     "com.ionic.keyboard",
     "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git",
     "org.apache.cordova.inappbrowser",
-    "https://github.com/phonegap-build/PushPlugin.git"
+    "https://github.com/phonegap-build/PushPlugin.git",
+    "https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin",
+    "com.pushwoosh.plugins.pushwoosh"
   ],
   "cordovaPlatforms": [
     "ios"

@@ -9,6 +9,8 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <access origin="*"/> <!-- allow all pages, use for development -->
+  <access origin="*.pushwoosh.com"/> <!-- allow pushwoosh service -->
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -106,5 +108,6 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />   
 </widget>

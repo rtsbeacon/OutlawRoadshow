@@ -94,6 +94,16 @@ angular.module('starter', [
       }
     })
 
+  .state('app.austins', {
+    url: "/austins",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/austins.html",
+    controller: 'AustinsCtrl',
+        }
+      }
+    })
+
 	.state('app.artist-detail', {
     	url: '/artists/:artistId',
   		views: {

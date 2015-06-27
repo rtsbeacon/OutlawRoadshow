@@ -22,6 +22,27 @@ angular.module('starter.services', [])
     }
  })
 
+  .factory('Austins', function($http) {
+   var austins = [];
+    return {
+      getAustins: function(){
+        return $http.get("http://songchant.com/outlaw/dev/austins.json").then(function(response){
+          artists = response;
+          return austins;
+          console.log(austins);
+        });
+      },
+      getAustin: function(austinId) {
+        for (i = 0; i < austins.length; i++) {
+          if (austins[i].id === parseInt(austinId)) {
+            return austins[i];
+          }
+        }
+        return null;
+      }
+    }
+ })
+
   .factory('News', function($http) {
    var news = [];
     return {

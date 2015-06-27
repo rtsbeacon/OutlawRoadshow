@@ -11,6 +11,20 @@
     <link href="css/ionic.app.css" rel="stylesheet">
 
     <!-- ionic/angularjs js -->
+       <script>
+    function initPushwoosh() {
+      var pushNotification = window.plugins.pushNotification;
+      if(device.platform == "Android")
+      {
+        registerPushwooshAndroid();
+      }else if(device.platform == "iPhone" || device.platform == "iOS")
+      {
+        registerPushwooshIOS();
+      }
+    }
+
+
+   </script>
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/angular-websocket/angular-websocket.js"></script>
     <script src="lib/ngCordova/dist/ng-cordova.js"></script>

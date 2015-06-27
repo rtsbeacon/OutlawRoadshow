@@ -80,9 +80,7 @@
       </intent-filter>
     </receiver>
   </gap:config-file>
-    <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
-        <receiver android:name="com.arellomobile.android.push.AlarmReceiver" />
-  </gap:config-file>
+      <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
 <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
  </gap:config-file>
@@ -109,6 +107,6 @@
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>
 
-    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
+
     <gap:plugin name="org.apache.cordova.inappbrowser" />   
 </widget>

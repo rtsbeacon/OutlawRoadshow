@@ -27,7 +27,7 @@ angular.module('starter', [
   });
 }])
 
-.starter.run(function($ionicPlatform) {
+starter.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
 
   initPushwoosh();

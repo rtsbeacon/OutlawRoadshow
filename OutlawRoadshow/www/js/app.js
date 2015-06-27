@@ -27,13 +27,13 @@ angular.module('starter', [
   });
 }])
 
-starter.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
+//starter.run(function($ionicPlatform) {
+ // $ionicPlatform.ready(function() {
 
-  initPushwoosh();
+//  initPushwoosh();
 
-  });
-})
+ // });
+//})
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

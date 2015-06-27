@@ -117,6 +117,20 @@ angular.module('starter', [
 	}
 	  }
 	})
+
+    .state('app.austin-detail', {
+      url: '/austins/:austinId',
+      views: {
+       'menuContent': {
+         templateUrl: 'templates/austin-detail.html',
+         controller: 'AustinDetailCtrl', 
+    //controller: function ($scope, $stateParams) {
+      //console.log($stateParamas),
+        // $scope.artistId = $stiateParams.artistId;
+     //}
+  }
+    }
+  })
 	
 	    .state('app.stage', {
       url: "/stage",

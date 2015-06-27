@@ -83,6 +83,13 @@ angular.module('starter.controllers', [])
      });
 }])
 
+.controller('AustinsCtrl', ['$scope', '$http', function($scope, $http) {
+     $http.get("http://songchant.com/outlaw/dev/austins.json").success(function(data) {
+         console.log(data);
+         $scope.austins = data;
+     });
+}])
+
 
 //.controller('ChatsCtrl', function($scope, Chats) {
 //  $scope.chats = Chats.all();

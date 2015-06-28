@@ -71,4 +71,4 @@ function onPushwooshiOSInitialized(pushToken)
 
   //start geo tracking.
   //pushNotification.startLocationTracking();
-}
+};

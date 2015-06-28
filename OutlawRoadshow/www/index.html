@@ -11,30 +11,20 @@
     <link href="css/ionic.app.css" rel="stylesheet">
 
     <!-- ionic/angularjs js -->
-       <script>
-    function initPushwoosh() {
-      var pushNotification = window.plugins.pushNotification;
-      if(device.platform == "Android")
-      {
-        registerPushwooshAndroid();
-      }else if(device.platform == "iPhone" || device.platform == "iOS")
-      {
-        registerPushwooshIOS();
-      }
-    }
-
-
-   </script>
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/angular-websocket/angular-websocket.js"></script>
     <script src="lib/ngCordova/dist/ng-cordova.js"></script>
     <script src="lib/ionic-service-core/ionic-core.js"></script>
-    <script src="lib/ionic-service-push/ionic-push.js"></script>
+  <!--  <script src="lib/ionic-service-push/ionic-push.js"></script>-->
     <script type="text/javascript" src="phonegap.js"></script>
-<script type="text/javascript" src="PushNotification.js"></script>
-<script type="text/javascript" src="js/PushwooshAndroid.js"></script>
+<!--<script type="text/javascript" src="PushNotification.js"></script>
+<script type="text/javascript" src="js/PushwooshAndroid.js"></script>-->
 <script type="text/javascript" src="js/PushwooshiOS.js"></script>
-<script type="text/javascript" src="js/Pushwoosh.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+        
+        <script type="text/javascript">
+            app.initialize();
+        </script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>

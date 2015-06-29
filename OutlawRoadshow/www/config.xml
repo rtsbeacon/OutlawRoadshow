@@ -57,6 +57,32 @@
     <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
     <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
 
+<!-- Urban Airship app credentials -->
+<preference name="com.urbanairship.production_app_key" value="DRC69kmyQCmB-44THALg7g" />
+<preference name="com.urbanairship.production_app_secret" value="d2PYf1RATVCkvVtHPzsl4Q" />
+<preference name="com.urbanairship.development_app_key" value="DRC69kmyQCmB-44THALg7g" />
+<preference name="com.urbanairship.development_app_secret" value="bkLwDAsUQDah7vidf8RGPQ" />
+
+<!-- Required for Android. -->
+<preference name="com.urbanairship.gcm_sender" value="234816071019" />
+
+<!-- If the app is in production or not -->
+<preference name="com.urbanairship.in_production" value="false" />
+
+<!-- Optional config values -->
+
+<!-- Enable push when the application launches -->
+<preference name="com.urbanairship.enable_push_onlaunch" value="true" />
+
+<!-- Override the Android notification icon -->
+<preference name="com.urbanairship.notification_icon" value="ic_notification" />
+
+<!-- Specify the notification accent color for Android API 21+ (Lollipop) -->
+<preference name="com.urbanairship.notification_accent_color" value="#0000ff" />
+
+<!-- Clear the iOS badge on launch -->
+<preference name="com.urbanairship.clear_badge_onlaunch" value="true" />
+
    <!--
     <gap:splash src="resources/android/splash/drawable-landscape-xxhdpi-screen.png" gap:platform="android" gap:qualifier="land-xxhdpi"/>
     <gap:splash src="resources/android/splash/drawable-landscape-xxxhdpi-screen.png" gap:platform="android" gap:qualifier="land-xxxhdpi"/>

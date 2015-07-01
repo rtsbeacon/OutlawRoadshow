@@ -97,7 +97,7 @@ angular.module('starter', [
     views: {
       'menuContent': {
         templateUrl: "templates/nashville.html",
-    controller: 'ArtistsCtrl',
+    controller: 'DashCtrl',
         }
       }
     })

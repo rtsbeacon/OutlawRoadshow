@@ -78,7 +78,7 @@ angular.module('starter', [
     views: {
       'menuContent': {
         templateUrl: "templates/news.html",
-    controller: 'NewsCtrl',
+    controller: 'TokenCtrl',
         }
       }
     })
@@ -88,7 +88,7 @@ angular.module('starter', [
     views: {
       'menuContent': {
         templateUrl: "templates/nashville.html",
-    controller: 'DashCtrl',
+    controller: 'UserCtrl',
         }
       }
     })

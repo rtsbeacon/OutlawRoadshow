@@ -22,6 +22,14 @@ The Artists service returns an array of artist data
 		<a href="#" class="item item-icon-left" onclick="window.open('http://www.theoutlawroadshow.com', '_system', 'location=yes')"><i class="icon ion-home"></i>The Outlaw Roadshow</a>
 		<a href="#" class="item item-icon-left" onclick="window.open('http://wemfradio.com/category/shows/outlawroadshow/', '_system', 'location=yes')"><i class="icon ion-ipod"></i>Podcasts from <br>The Outlaw Roadshow Radio</a>
 </div>
+   
+        <button class="button button-block button-positive" ng-if="identified" ng-click="pushRegister()">
+          Register for Push
+        </button>
+        <p ng-if="token">
+        Device token:<br>
+        <b><code>{{token}}</code></b>
+        </p>
 </ion-content>
 </ion-view> 
 

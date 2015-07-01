@@ -1,14 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope, $rootScope, $ionicUser, $ionicPush) {
-
-  // Handles incoming device tokens
-  $rootScope.$on('$cordovaPush:tokenReceived', function(event, data) {
-    alert("Successfully registered token " + data.token);
-    console.log('Ionic Push: Got token ', data.token, data.platform);
-    $scope.token = data.token;
-  });
-
+.controller('UserCtrl', function($scope, $rootScope, $ionicUser, $ionicPush) {
   // Identifies a user with the Ionic User service
   $scope.identifyUser = function() {
     console.log('Ionic User: Identifying with Ionic User service');
@@ -31,6 +23,15 @@ angular.module('starter.controllers', [])
       alert('Identified user ' + user.name + '\n ID ' + user.user_id);
     });
   };
+})
+
+  .controller('TokenCtrl', function($scope, $rootScope, $ionicUser, $ionicPush) {
+ // Handles incoming device tokens
+  $rootScope.$on('$cordovaPush:tokenReceived', function(event, data) {
+    alert("Successfully registered token " + data.token);
+    console.log('Ionic Push: Got token ', data.token, data.platform);
+    $scope.token = data.token;
+  });
 
   // Registers a device for push notifications 
   $scope.pushRegister = function() {

@@ -24,9 +24,7 @@ angular.module('starter', [
     // The public API key all services will use for this app
     api_key: 'b81ad25ed3c897f69b681302da3d7bcbaea13773a1673428',
         // The GCM project number
-    gcm_id: '234816071019',
-     // Set the app to use development pushes
-    dev_push: true
+    gcm_id: '234816071019'
   });
 }])
 

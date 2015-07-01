@@ -18,7 +18,7 @@
         <code>$ionicPush.register</code>. Note: you should register each time
         the app is launched (identified user data will be cached after the first identify() call).
         <br>
-        <button class="button button-block button-positive" ng-click="pushRegister()">
+        <button class="button button-block button-positive" ng-if="identified" ng-click="pushRegister()">
           Register for Push
         </button>
         <p ng-if="token">

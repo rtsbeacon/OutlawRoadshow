@@ -14,17 +14,7 @@
         </button>
         <p ng-if="identified">
         </p>
-        After you've identified, you can register for push notifications by calling
-        <code>$ionicPush.register</code>. Note: you should register each time
-        the app is launched (identified user data will be cached after the first identify() call).
-        <br>
-        <button class="button button-block button-positive" ng-if="identified" ng-click="pushRegister()">
-          Register for Push
-        </button>
-        <p ng-if="token">
-        Device token:<br>
-        <b><code>{{token}}</code></b>
-        </p>
+    
       </div>
   </ion-content>
 </ion-view>

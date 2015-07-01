@@ -15,7 +15,7 @@ angular.module('starter', [
   'starter.services'
 ])
 
-//this is code for ionic push
+//this is code for ionic services
 .config(['$ionicAppProvider', function($ionicAppProvider) {
   // Identify app
   $ionicAppProvider.identify({
@@ -28,13 +28,6 @@ angular.module('starter', [
   });
 }])
 
-//starter.run(function($ionicPlatform) {
- // $ionicPlatform.ready(function() {
-
-//  initPushwoosh();
-
- // });
-//})
 
 .run(function($ionicPlatform, $ionicAnalytics) {
   $ionicPlatform.ready(function() {

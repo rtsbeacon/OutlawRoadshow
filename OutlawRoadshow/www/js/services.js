@@ -65,14 +65,6 @@ angular.module('starter.services', [])
  });
  
 
- //  return {
- //   all: function() {
-  //    return artists;
- //   },
- //   get: function(artistId) {
-      // Simple index lookup
-//      return artists[artistId];
-
 
 //.factory('Chats', function() {
   // Might use a resource here that returns a JSON array
@@ -110,46 +102,5 @@ angular.module('starter.services', [])
  // }
 //})
 
-/**
- * A simple example service that returns some data.
- */
- 
 
  
- 
-//.factory('Artists', function() {
-  // Might use a resource here that returns a JSON array
- // var artists = [{
-  //  id: 0,
- //   name: 'Counting Crows',
-  //  notes: 'This is where the band bios will go  Counting Crows is the best band ever.  Charlie plays keys and acordion.... he is really cool.  Dan likes to have guitar solos.  Millard is a funny dude. ',
-  //  face: 'img/countingcrows.jpg',
-//	day: 'Fri',
-//	time: '3:30pm',
-//	url: 'http://www.countingcrows.com',
-//	mp3: 'http://open.spotify.com/track/4quTOp1baRORMoFkmFDnyN',
-//	mp3name: 'Elvis Went To Hollywood'
-//  }, { 
- //   id: 1,
-//    name: 'K Phillips and the Concho Pearls',
-  //  notes: 'Local greats',
-//    face: 'img/kphillips.jpg',
-//	day: 'Fri',
-//	time: '3:30pm',
-//	url: 'http://kphillipsmusic.com',
-//	mp3: 'http://open.spotify.com/track/3Cpcwzwp6L5f1jgCYtlo7q',
-//	mp3name: 'Kats Song (What I cant have)'
-
-//  }];
-
-
-//  return {
- //   all: function() {
-  //    return artists;
- //   },
- //   get: function(artistId) {
-      // Simple index lookup
-//      return artists[artistId];
- //   }
-//  }
-// });

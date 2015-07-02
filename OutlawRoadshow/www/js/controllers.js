@@ -39,7 +39,6 @@ $scope.pushRegister = function() {
      // Handle new push notifications here
      return true;
    }
-   alert('Button was clicked');
  });
 };
 

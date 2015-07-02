@@ -38,6 +38,7 @@ $scope.pushRegister = function() {
    onNotification: function(notification) {
      // Handle new push notifications here
      return true;
+     alert('Button was clicked');
    }
  });
 };

@@ -89,7 +89,7 @@ $scope.pushRegister = function() {
 .controller('SponsorsCtrl', ['$scope', '$http', function($scope, $http) {
      $http.get("http://songchant.com/outlaw/sponsors.json").success(function(data) {
          console.log(data);
-         $scope.news = data;
+         $scope.sponsors = data;
      });
 }])
 

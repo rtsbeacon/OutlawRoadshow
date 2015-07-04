@@ -62,8 +62,28 @@ angular.module('starter.services', [])
         return null;
       }
     }
- });
+ })
  
+  .factory('Sponsors', function($http) {
+   var sponsors = [];
+    return {
+      getSponsors: function(){
+        return $http.get("http://songchant.com/outlaw/sponsors.json").then(function(response){
+          sponsors = response;
+          return sponsors;
+          console.log(sponsors);
+        });
+      },
+      getSponsor: function(sponsorId) {
+        for (i = 0; i < sponsors.length; i++) {
+          if (sponsors[i].id === parseInt(sponsorId)) {
+            return sponsors[i];
+          }
+        }
+        return null;
+      }
+    }
+ });
 
 
 //.factory('Chats', function() {

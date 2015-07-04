@@ -86,6 +86,13 @@ $scope.pushRegister = function() {
      });
 }])
 
+.controller('SponsorsCtrl', ['$scope', '$http', function($scope, $http) {
+     $http.get("http://songchant.com/outlaw/sponsors.json").success(function(data) {
+         console.log(data);
+         $scope.news = data;
+     });
+}])
+
 .controller('NewsCtrl', ['$scope', '$http', function($scope, $http) {
      $http.get("http://songchant.com/outlaw/news.json").success(function(data) {
          console.log(data);

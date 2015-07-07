@@ -1,0 +1,20 @@
+[ 
+	{
+      "id":11,
+      "logo":"http://songchant.com/outlaw/images/rsl.png",
+      "url":"http://www.rslblog.com/",
+      "Text":"Ryan's Smashing Life"
+},
+      {
+      "id":12,
+      "logo":"http://songchant.com/outlaw/images/mof.png",
+      "url":"http://www.mofdesign.com/",
+      "text":"Man on Fire"
+},
+      {
+      "id":13,
+      "logo":"http://songchant.com/outlaw/images/lightning.png",
+      "url":"http://www.lightning100.com/",
+      "text":"lightning"
+},
+]

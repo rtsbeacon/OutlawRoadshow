@@ -15,30 +15,20 @@ angular.module('starter', [
   'starter.services'
 ])
 
-<<<<<<< HEAD
 //this is code for ionic services
 .config(['$ionicAppProvider', function($ionicAppProvider) {
-=======
-//this is code for ionic push
-//.config(['$ionicAppProvider', function($ionicAppProvider) {
->>>>>>> 9e4d657124c6867cc5b95d205ce05bb1fecbe6ed
-  // Identify app
-//  $ionicAppProvider.identify({
+ //Identify app
+  $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
-//    app_id: 'a5d01814',
+   app_id: 'a5d01814',
     // The public API key all services will use for this app
-//    api_key: 'b81ad25ed3c897f69b681302da3d7bcbaea13773a1673428',
+   api_key: 'b81ad25ed3c897f69b681302da3d7bcbaea13773a1673428',
         // The GCM project number
-<<<<<<< HEAD
     gcm_id: '234816071019',
     dev_push: false
   });
 }])
-=======
-//    gcm_id: '234816071019'
-//  });
-//}])
->>>>>>> 9e4d657124c6867cc5b95d205ce05bb1fecbe6ed
+
 
 
 .run(function($ionicPlatform, $ionicAnalytics) {

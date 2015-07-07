@@ -9,8 +9,6 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
-  <access origin="*"/> <!-- allow all pages, use for development -->
-  <access origin="*.pushwoosh.com"/> <!-- allow pushwoosh service -->
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -80,7 +78,6 @@
       </intent-filter>
     </receiver>
   </gap:config-file>
-      <gap:plugin name="com.pushwoosh.plugins.pushwoosh" source="plugins.cordova.io" />
 <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
  </gap:config-file>
@@ -106,7 +103,6 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>
-
 
     <gap:plugin name="org.apache.cordova.inappbrowser" />   
 </widget>

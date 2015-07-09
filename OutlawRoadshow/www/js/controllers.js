@@ -70,7 +70,7 @@ $scope.pushRegister = function() {
 
 .controller('ArtistDetailCtrl', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams) {
   //var artist = Artists.getArtist($scope.artistId);
-  $http.get('http://songchant.com/outlaw/artists.json').success(function(data) {
+  $http.get('http://songchant.com/outlaw/dev/artists.json').success(function(data) {
          console.log(data);
          $scope.artists = data;
      });
@@ -80,7 +80,7 @@ $scope.pushRegister = function() {
 
 
 .controller('ArtistsCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://songchant.com/outlaw/artists.json").success(function(data) {
+     $http.get("http://songchant.com/outlaw/dev/artists.json").success(function(data) {
          console.log(data);
          $scope.artists = data;
      });

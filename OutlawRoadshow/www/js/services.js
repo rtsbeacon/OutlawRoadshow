@@ -69,7 +69,7 @@ angular.module('starter.services', [])
     return {
       getSponsors: function(){
         return $http.get("http://songchant.com/outlaw/sponsors.json").then(function(response){
-          sponsors = response;
+          artists = response;
           return sponsors;
           console.log(sponsors);
         });

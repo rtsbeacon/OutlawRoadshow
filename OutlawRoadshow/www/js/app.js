@@ -85,11 +85,11 @@ angular.module('starter', [
       }
     })
 
-    .state('app.nashville', {
-    url: "/nashville",
+    .state('app.sponsors', {
+    url: "/sponsors",
     views: {
       'menuContent': {
-        templateUrl: "templates/nashville.html",
+        templateUrl: "templates/sponsors.html",
     controller: 'SponsorsCtrl',
         }
       }

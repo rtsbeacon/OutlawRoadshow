@@ -17,6 +17,7 @@
     "angular-ui-router": "0.2.13"
   },
   "dependencies": {
+    "angular-auto-validate": "~1.18.16",
     "ionic-service-analytics": "~0.2.5"
   }
 }

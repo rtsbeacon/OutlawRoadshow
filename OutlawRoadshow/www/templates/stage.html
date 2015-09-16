@@ -1,7 +1,7 @@
 <ion-view>
 <ion-content>
     <div class="list">
-    <div class="item item-divider">FRIDAY - Mercy Lounge</div>
+    <div class="item item-divider">THURSDAY - Map Room</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:1} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -10,7 +10,7 @@
       </ion-item>
 
    
-    <div class="item item-divider">FRIDAY - The High Watt</div>
+    <div class="item item-divider">THURSDAY - Downstairs</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:2} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
@@ -18,6 +18,22 @@
       <span style="font-size: 14px; color: #BA1013">{{artist.stage}}</span>
       </ion-item>
 
+<div class="item item-divider">FRIDAY - Map Room</div>
+<ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:2, stageId:1} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
+    <img ng-src="{{artist.thumb}}">
+        <span style="font-size: 22px">{{artist.name}}</span><br>
+        <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}}<br></span>
+        <span style="font-size: 14px; color: #BA1013">{{artist.stage}}</span>
+        </ion-item>
+
+
+<div class="item item-divider">FRIDAY - Downstairs</div>
+<ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:2, stageId:2} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
+    <img ng-src="{{artist.thumb}}">
+        <span style="font-size: 22px">{{artist.name}}</span><br>
+        <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}}<br></span>
+        <span style="font-size: 14px; color: #BA1013">{{artist.stage}}</span>
+        </ion-item>
 
  <!--   <div class="item item-divider">FRIDAY - Elysium</div>
   <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:1, stageId:3} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
@@ -28,8 +44,8 @@
       </ion-item>  -->
 
  
-    <div class="item item-divider">SATURDAY - Mercy Lounge</div>
-  <ion-item class="item-thumbnail-left" ng-repeat="artist in artists  | filter: {dayId:2, stageId:1} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
+    <div class="item item-divider">SATURDAY - Map Room</div>
+  <ion-item class="item-thumbnail-left" ng-repeat="artist in artists  | filter: {dayId:3, stageId:1} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
        <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}}<br></span>
@@ -37,8 +53,8 @@
       </ion-item>
 
 
-    <div class="item item-divider">SATURDAY - The High Watt</div>
-  <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:2, stageId:2} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
+    <div class="item item-divider">SATURDAY - Downstairs</div>
+  <ion-item class="item-thumbnail-left" ng-repeat="artist in artists | filter: {dayId:3, stageId:2} | orderBy: 'id'" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
       <img ng-src="{{artist.thumb}}"> 
       <span style="font-size: 22px">{{artist.name}}</span><br>
       <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}}<br></span>

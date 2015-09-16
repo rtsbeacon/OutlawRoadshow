@@ -76,7 +76,7 @@ angular.module('starter.controllers', [])
                 var user = $ionicUser.get();
                 if(!user.user_id) {
             // Set your user_id here, or generate a random one.
-                user.user_id = $ionicUser.generateGUID()
+                user.user_id = "RSVP"
                             };
             
             // Add some metadata to your user object.
@@ -96,7 +96,7 @@ angular.module('starter.controllers', [])
                                                                              disableBack: true
                                                                              });
                                     $state.go('app.thankyou');
-                                         alert('Identified user ' + user.name + '\n ID ' + user.user_id);
+                                  //       alert('Identified user ' + user.name + '\n ID ' + user.user_id);
                             });
           };
 

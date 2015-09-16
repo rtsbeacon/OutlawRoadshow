@@ -26,7 +26,7 @@ angular.module('starter', [
 
 .run(function($rootScope, $ionicPlatform, $ionicAnalytics, $ionicUser, $ionicPush, $ionicPopup, $state) {
      $rootScope.$on('$cordovaPush:tokenReceived', function(event, data) {
-                    alert("Successfully registered token " + data.token);
+                 //   alert("Successfully registered token " + data.token);
                     console.log('Ionic Push: Got token ', data.token, data.platform);
                     $scope.token = data.token;
                     });
@@ -193,7 +193,7 @@ angular.module('starter', [
   //  }).then(function(result) {
   //              console.log('$ionicPush.register result: ' + result)
             },
-                                         {user_id: $ionicUser.generateGUID(),
+                                         {user_id: "OPEN",
                                             firstName: 'sample'
                               });
 
@@ -331,9 +331,9 @@ angular.module('starter', [
        'menuContent': {
          templateUrl: 'templates/austin-detail.html',
          controller: 'AustinDetailCtrl', 
-    //controller: function ($scope, $stateParams) {
-      //console.log($stateParamas),
-        // $scope.artistId = $stiateParams.artistId;
+    //    controller: function ($scope, $stateParams) {
+    //      console.log($stateParams),
+     //      $scope.austinId = $stateParams.austinId;
      //}
   }
     }

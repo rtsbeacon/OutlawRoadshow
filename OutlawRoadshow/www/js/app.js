@@ -193,7 +193,7 @@ angular.module('starter', [
   //  }).then(function(result) {
   //              console.log('$ionicPush.register result: ' + result)
             },
-                                         {user_id: "OPEN",
+                                         {user_id: $ionicUser.generateGUID(),
                                             firstName: 'sample'
                               });
 

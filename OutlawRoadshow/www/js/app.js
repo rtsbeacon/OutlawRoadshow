@@ -331,9 +331,10 @@ angular.module('starter', [
        'menuContent': {
          templateUrl: 'templates/austin-detail.html',
          controller: 'AustinDetailCtrl', 
-    //    controller: function ($scope, $stateParams) {
-    //      console.log($stateParams),
-     //      $scope.austinId = $stateParams.austinId;
+        // console.log($stateParams.austinId),
+   // controller: function ($scope, $stateParams) {
+      //   console.log($stateParams.austinId),
+      //    $scope.austinId = $stateParams.austinId;
      //}
   }
     }

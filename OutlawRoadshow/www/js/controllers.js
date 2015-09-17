@@ -83,7 +83,8 @@ angular.module('starter.controllers', [])
                 angular.extend(user, {
                           name: $scope.data.lastName,
                           firstName: $scope.data.firstName,
-                          email: $scope.data.email
+                          email: $scope.data.email,
+                          bio: 'RSVP'
                            });
 
                // $scope.data = angular.copy(oriData);

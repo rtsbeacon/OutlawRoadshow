@@ -5,7 +5,7 @@ angular.module('starter.services', [])
    var artists = [];
     return {
       getArtists: function(){
-        return $http.get("http://songchant.com/outlaw/dev/artists.json").then(function(response){
+        return $http.get("http://songchant.com/outlaw/artists.json").then(function(response){
           artists = response;
           return artists;
           console.log(artists);
@@ -64,32 +64,12 @@ angular.module('starter.services', [])
     }
  })
 
-    .factory('QRs', function($http) {
-   var qrs = [];
-    return {
-      getQrs: function(){
-        return $http.get("http://songchant.com/outlaw/QR.json").then(function(response){
-          artists = response;
-          return qrs;
-          console.log(qrs);
-        });
-      },
-      getQr: function(qrId) {
-        for (i = 0; i < qrs.length; i++) {
-          if (qrs[i].id === parseInt(qrId)) {
-            return qrs[i];
-          }
-        }
-        return null;
-      }
-    }
- })
  
   .factory('Sponsors', function($http) {
    var sponsors = [];
     return {
       getSponsors: function(){
-        return $http.get("http://songchant.com/outlaw/sponsorsNYC.json").then(function(response){
+        return $http.get("http://songchant.com/outlaw/sponsors.json").then(function(response){
           artists = response;
           return sponsors;
           console.log(sponsors);

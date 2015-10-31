@@ -10,7 +10,7 @@ The Artists service returns an array of artist data
   <ion-content class="content-artist-detail" ng-repeat="artist in artists | filter: {id:artist}">
     <img ng-src="{{artist.image}}" style="padding-top: 10px"><br><br>
     <span style="font-size: 22px">{{artist.name}}</span><br>
-      <span style="font-size: 14px; color: #b0b0b0">{{artist.day}} - {{artist.time}} - </span><span style="font-size: 14px; color: #BA1013">{{artist.stage}}  </span><br><br>
+      <span style="font-size: 14px; color: #b0b0b0">{{artist.time}} - </span><span style="font-size: 14px; color: #BA1013">{{artist.stage}}  </span><br><br>
       <span style="font-family: sans-serif; font-size: 16px">{{artist.bio}}<br><br>
         Visit {{artist.name}}'s <a style="color: #BA1013" href="{{artist.url}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">site</a> <br><br>
         Listen to <a style="color: #BA1013" href="{{artist.mp3}}" onclick="window.open(this.href, '_system', 'location=yes');return false;">{{artist.mp3name}}</a> <br><br>

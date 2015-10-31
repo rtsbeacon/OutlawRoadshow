@@ -1,4 +1,21 @@
 /* Empty. Add your own CSS if you like */
+/* background image on landing page */
+.landing {
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80%;
+    height: 246px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+}
+
+.home-background {
+  background: url(http://songchant.com/outlaw/images/splash.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
 
 img {
 max-width:100%;

@@ -43,6 +43,7 @@ angular.module('starter', [
       // org.apache.cordova.statusbar required
       StatusBar.styleLightContent();
     }
+
                        
     $ionicPush.register({
             canShowAlert: true, //Can pushes show an alert on your screen?
@@ -193,14 +194,13 @@ angular.module('starter', [
   //  }).then(function(result) {
   //              console.log('$ionicPush.register result: ' + result)
             },
-                                         {user_id: $ionicUser.generateGUID(),
-                                            firstName: 'sample'
-                              });
+                               
+                                        {user_id: $ionicUser.generateGUID(),
+                                           firstName: 'sample'
+                            });
 
 
-
-
-
+   
                        
   });
 })
@@ -223,15 +223,15 @@ angular.module('starter', [
   
   })
 
-  .state('app.schedule', {
-    url: "/schedule",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/schedule.html",
-		controller: 'ArtistsCtrl',
-        }
-      }
-    })
+  //.state('app.schedule', {
+  //  url: "/schedule",
+  //  views: {
+   //   'menuContent': {
+  //      templateUrl: "templates/schedule.html",
+	//	controller: 'ArtistsCtrl',
+  //      }
+  //    }
+  //  })
 
   .state('app.news', {
     url: "/news",
@@ -243,21 +243,21 @@ angular.module('starter', [
       }
     })
 
-    .state('app.qr', {
-               url: "/qr",
+  //  .state('app.qr', {
+  //             url: "/qr",
+   //            views: {
+  //             'menuContent': {
+  //             templateUrl: "templates/qr.html",
+  //             controller: 'QRCtrl',
+  //             }
+  //          }
+  //  })
+    .state('app.email', {
+               url: "/email",
                views: {
                'menuContent': {
-               templateUrl: "templates/qr.html",
-               controller: 'QRCtrl',
-               }
-            }
-    })
-    .state('app.rsvp', {
-               url: "/rsvp",
-               views: {
-               'menuContent': {
-               templateUrl: "templates/rsvp.html",
-               controller: 'RSVPCtrl',
+               templateUrl: "templates/email.html",
+               controller: 'EMAILCtrl',
                }
             }
     })
@@ -338,18 +338,18 @@ angular.module('starter', [
      //}
   }
     }
-  })
-	
-	    .state('app.stage', {
-      url: "/stage",
-      views: {
-        'menuContent': {
-          templateUrl: "templates/stage.html",
-          controller: 'ArtistsCtrl',
-        }
-      }
   });
+	
+//	    .state('app.stage', {
+//      url: "/stage",
+ //     views: {
+ //       'menuContent': {
+ //         templateUrl: "templates/stage.html",
+ //         controller: 'ArtistsCtrl',
+ //       }
+  //    }
+ // });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/schedule');
+  $urlRouterProvider.otherwise('/app/home');
 });
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<widget id="com.outlawroadshow.ionic.push" version="1.5.1" xmlns="http://www.w3.org/ns/widgets" android-versionCode="10" xmlns:gap= "http://phonegap.com/ns/1.0">
+<widget id="com.outlawroadshow.ionic.push" version="1.4.8" xmlns="http://www.w3.org/ns/widgets" android-versionCode="3" xmlns:gap= "http://phonegap.com/ns/1.0">
   <name>The Outlaw Roadshow</name>
   <description>
         An app for fans and Outlaws

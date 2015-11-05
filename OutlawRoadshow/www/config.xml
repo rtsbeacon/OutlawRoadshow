@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<widget id="com.outlawroadshow.ionic.push" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap= "http://phonegap.com/ns/1.0">
+<widget id="com.outlawroadshow.ionic.push" version="3.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap= "http://phonegap.com/ns/1.0">
   <name>The Outlaw Roadshow</name>
   <description>
         An app for fans and Outlaws
@@ -75,5 +75,5 @@
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>  -->
 <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 </widget>

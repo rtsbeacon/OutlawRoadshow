@@ -75,5 +75,5 @@
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>  -->
 <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" version"0.6.0" />
 </widget>

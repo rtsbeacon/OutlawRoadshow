@@ -97,9 +97,7 @@
      <service android:name="com.plugin.gcm.GCMIntentService" />
   </gap:config-file>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
-      <feature name="InAppBrowser"> 
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
-    </feature>
+     
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>

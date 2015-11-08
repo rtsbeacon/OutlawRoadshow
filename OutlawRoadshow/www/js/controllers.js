@@ -26,6 +26,12 @@ angular.module('starter.controllers', [])
    $scope.artist = $stateParams.artistId;
  }])  
 
+.controller('HomeCtrl', ['$scope', '$http', function($scope, $http) {
+     $http.get("https://secure.rcomhost.com/songchant.com/outlaw/sponsors.json").success(function(data) {
+         console.log(data);
+         $scope.home = data;
+     });
+}])
 
 .controller('ArtistsCtrl', ['$scope', '$http', function($scope, $http) {
      $http.get("http://songchant.com/outlaw/artists.json").success(function(data) {
@@ -49,7 +55,7 @@ angular.module('starter.controllers', [])
 }])
 
 
-.controller('RSVPCtrl', function($scope, $state, $ionicUser, $ionicHistory) {
+.controller('EMAILCtrl', function($scope, $state, $ionicUser, $ionicHistory) {
             $scope.data = {};
 
           //  var oriData = angular.copy($scope.data);
@@ -83,7 +89,8 @@ angular.module('starter.controllers', [])
                 angular.extend(user, {
                           name: $scope.data.lastName,
                           firstName: $scope.data.firstName,
-                          email: $scope.data.email
+                          email: $scope.data.email,
+                          bio: 'TelAvivEMAIL'
                            });
 
                // $scope.data = angular.copy(oriData);

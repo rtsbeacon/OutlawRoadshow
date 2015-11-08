@@ -1,7 +1,7 @@
 {
-  "name": "outlawsass",
+  "name": "outlawroadshow",
   "version": "1.0.0",
-  "description": "OutlawSass: An Ionic project",
+  "description": "OutlawRoadshow: An App for Outlaws and fans of The Outlaw Roadshow",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",
@@ -21,6 +21,20 @@
     "com.ionic.keyboard",
     "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git",
     "org.apache.cordova.inappbrowser",
+<<<<<<< HEAD
+    "https://github.com/phonegap-build/PushPlugin.git",
+    "https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin",
+    "com.pushwoosh.plugins.pushwoosh",
+    {
+      "locator": "https://github.com/phonegap-build/PushPlugin.git",
+      "id": "com.phonegap.plugins.PushPlugin"
+    },
+    "urbanairship-cordova"
+  ],
+  "cordovaPlatforms": [
+    "ios"
+=======
     "https://github.com/phonegap-build/PushPlugin.git"
+>>>>>>> 9e4d657124c6867cc5b95d205ce05bb1fecbe6ed
   ]
 }

@@ -5,6 +5,16 @@ max-width:100%;
 height:auto;
 }
 
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.home-background {
+  background: url(https://secure.rcomhost.com/songchant.com/outlaw/images/splash.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 /* unvisited link */
 a:link {
     color: #444;
@@ -141,7 +151,7 @@ background-color: #444;
 background-color: #444;
 color: white;
 font-family: Antonio-Regular;
-font-size: 32px;
+font-size: 26px;
 }
 
 .my-item .item .h2{

@@ -5,7 +5,7 @@ angular.module('starter.services', [])
    var artists = [];
     return {
       getArtists: function(){
-        return $http.get("http://songchant.com/outlaw/artists.json").then(function(response){
+        return $http.get("http://songchant.com/outlaw/dev/artists.json").then(function(response){
           artists = response;
           return artists;
           console.log(artists);
@@ -20,16 +20,91 @@ angular.module('starter.services', [])
         return null;
       }
     }
- });
- 
+ })
 
- //  return {
- //   all: function() {
-  //    return artists;
- //   },
- //   get: function(artistId) {
-      // Simple index lookup
-//      return artists[artistId];
+  .factory('Austins', function($http) {
+   var austins = [];
+    return {
+      getAustins: function(){
+        return $http.get("http://songchant.com/outlaw/austins.json").then(function(response){
+          artists = response;
+          return austins;
+          console.log(austins);
+        });
+      },
+      getAustin: function(austinId) {
+        for (i = 0; i < austins.length; i++) {
+          if (austins[i].id === parseInt(austinId)) {
+            return austins[i];
+          }
+        }
+        return null;
+      }
+    }
+ })
+
+  .factory('News', function($http) {
+   var news = [];
+    return {
+      getNews: function(){
+        return $http.get("http://songchant.com/outlaw/news.json").then(function(response){
+          artists = response;
+          return news;
+          console.log(news);
+        });
+      },
+      getNew: function(newId) {
+        for (i = 0; i < news.length; i++) {
+          if (news[i].id === parseInt(newId)) {
+            return news[i];
+          }
+        }
+        return null;
+      }
+    }
+ })
+
+    .factory('QRs', function($http) {
+   var qrs = [];
+    return {
+      getQrs: function(){
+        return $http.get("http://songchant.com/outlaw/QR.json").then(function(response){
+          artists = response;
+          return qrs;
+          console.log(qrs);
+        });
+      },
+      getQr: function(qrId) {
+        for (i = 0; i < qrs.length; i++) {
+          if (qrs[i].id === parseInt(qrId)) {
+            return qrs[i];
+          }
+        }
+        return null;
+      }
+    }
+ })
+ 
+  .factory('Sponsors', function($http) {
+   var sponsors = [];
+    return {
+      getSponsors: function(){
+        return $http.get("http://songchant.com/outlaw/sponsorsNYC.json").then(function(response){
+          artists = response;
+          return sponsors;
+          console.log(sponsors);
+        });
+      },
+      getSponsor: function(sponsorId) {
+        for (i = 0; i < sponsors.length; i++) {
+          if (sponsors[i].id === parseInt(sponsorId)) {
+            return sponsors[i];
+          }
+        }
+        return null;
+      }
+    }
+ });
 
 
 //.factory('Chats', function() {
@@ -68,46 +143,5 @@ angular.module('starter.services', [])
  // }
 //})
 
-/**
- * A simple example service that returns some data.
- */
- 
 
  
- 
-//.factory('Artists', function() {
-  // Might use a resource here that returns a JSON array
- // var artists = [{
-  //  id: 0,
- //   name: 'Counting Crows',
-  //  notes: 'This is where the band bios will go  Counting Crows is the best band ever.  Charlie plays keys and acordion.... he is really cool.  Dan likes to have guitar solos.  Millard is a funny dude. ',
-  //  face: 'img/countingcrows.jpg',
-//	day: 'Fri',
-//	time: '3:30pm',
-//	url: 'http://www.countingcrows.com',
-//	mp3: 'http://open.spotify.com/track/4quTOp1baRORMoFkmFDnyN',
-//	mp3name: 'Elvis Went To Hollywood'
-//  }, { 
- //   id: 1,
-//    name: 'K Phillips and the Concho Pearls',
-  //  notes: 'Local greats',
-//    face: 'img/kphillips.jpg',
-//	day: 'Fri',
-//	time: '3:30pm',
-//	url: 'http://kphillipsmusic.com',
-//	mp3: 'http://open.spotify.com/track/3Cpcwzwp6L5f1jgCYtlo7q',
-//	mp3name: 'Kats Song (What I cant have)'
-
-//  }];
-
-
-//  return {
- //   all: function() {
-  //    return artists;
- //   },
- //   get: function(artistId) {
-      // Simple index lookup
-//      return artists[artistId];
- //   }
-//  }
-// });

@@ -1034,6 +1034,7 @@
       "image":"http://songchant.com/outlaw/images/seanbarna.jpg",
       "bio":"Seán Barna is a singer, songwriter, and drummer living in Washington, D.C. His debut EP, Cutter Street, is an urgent and powerful collection of songs recorded at The Fortress in Downtown Los Angeles in late-2013 and early-2014, while Barna was jobless and living on his friend's couch. He is currently recording a followup full length LP, tentatively called Monogamy and Other Disappointments, due out in the summer of 2015."
 },
+
        {
       "id":123,
       "name":"Seth Wood",
@@ -1048,7 +1049,25 @@
       "thumb":"http://songchant.com/outlaw/images/sethwood_th.jpg",
       "image":"http://songchant.com/outlaw/images/sethwood.jpg",
       "bio":"In his latest EP San Francisco, Seth Wood brings his gospel background to picnic with his own folk-inspired style, where audiences can feast on words that he has been carefully harvesting for months. Ripe and ready for listening, this 2013 release, produced by Tom Laune, echoes of a season where Wood wrestled extensively with his dreams and impending realities. When friend DJ Lipscomb suggested he begin a Kickstarter campaign to fund the EP, Wood consenting under one condition: If it doesn’t happen, this is the world signaling for me to not do music anymore." 
+},
+{
+      "id":124,
+      "name":"Ninet Tayeb",
+      "day":"Thursday",
+      "dayId":"1",
+      "time":"9:30pm",
+      "stageId":"2",
+      "stage":"Downstairs",
+      "url":"http://www.ninetayeb.com/en/home",
+       "fb":"https://www.facebook.com/ninetayebOfficial",
+      "twitter":"https://twitter.com/tayebninet",
+      "mp3name":"Paper Parachute",
+      "mp3":"https://soundcloud.com/ninet-tayeb/paper-parachute",
+      "thumb":"http://songchant.com/outlaw/images/ninettayeb_th.jpg",
+      "image":"http://songchant.com/outlaw/images/ninettayeb.jpg",
+      "bio":"Adam and I are absolutely delighted to announce that we have the magical Ninet Tayeb with us in New York for a very special Outlaw Roadshow performance. Ninet is essentially the most famous name in the Israel entertainment industry; a songwriter, an actress, a DJ and a hell of a live performer! Our show with Ninet at The Bowery Electric on Thursday 10/15 is going to serve as a wake-up call for the States. With a new album nearly done (the new single is below) she is going to take America by storm! With over a decade making her way to the top of Israel's music scene, Ninet Tayeb has become one of the most successful and infectious female artists in her country, now planning the worldwide release of her 5th album. After achieving everything that her local scene can offer - and playing selected dates throughout the US/UK/EUROPE over the past few years- Ninet has now has exclusively set her sights on the international stage looking to impact her music/sound to larger audiences worldwide, both with her stellar new LP and with fantastic live shows. Ninet's last album Sympathetic Nervous System (Produced by Mike Crossey who worked with The Arctic Monkeys, Blood Red Shoes and many more) has received overwhelming reviews - Tayeb is now in her final days of mixing her new album to be released in early 2016"
 }
+
 
 
 ]

@@ -8,7 +8,7 @@ angular.module('starter.controllers', [])
 
 .controller('AustinDetailCtrl', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams) {
   //var artist = Artists.getArtist($scope.artistId);
-  $http.get('http://songchant.com/outlaw/austins.json').success(function(data) {
+  $http.get('https://secure.rcomhost.com/songchant.com/outlaw/austins.json').success(function(data) {
          console.log(data);
          $scope.austins = data;
      });
@@ -18,7 +18,7 @@ angular.module('starter.controllers', [])
 
 .controller('ArtistDetailCtrl', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams) {
   //var artist = Artists.getArtist($scope.artistId);
-  $http.get('http://songchant.com/outlaw/artists.json').success(function(data) {
+  $http.get('https://secure.rcomhost.com/songchant.com/outlaw/artists.json').success(function(data) {
          console.log(data);
          $scope.artists = data;
      });
@@ -27,28 +27,28 @@ angular.module('starter.controllers', [])
  }])  
 
 .controller('HomeCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://songchant.com/outlaw/sponsors.json").success(function(data) {
+     $http.get("https://secure.rcomhost.com/songchant.com/outlaw/sponsors.json").success(function(data) {
          console.log(data);
          $scope.home = data;
      });
 }])
 
 .controller('ArtistsCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://songchant.com/outlaw/artists.json").success(function(data) {
+     $http.get("https://secure.rcomhost.com/songchant.com/outlaw/artists.json").success(function(data) {
          console.log(data);
          $scope.artists = data;
      });
 }])
 
 .controller('SponsorsCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://songchant.com/outlaw/sponsors.json").success(function(data) {
+     $http.get("https://secure.rcomhost.com/songchant.com/outlaw/sponsors.json").success(function(data) {
          console.log(data);
          $scope.sponsors = data;
      });
 }])
 
 .controller('QRCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://songchant.com/outlaw/QR.json").success(function(data) {
+     $http.get("https://secure.rcomhost.com/songchant.com/outlaw/QR.json").success(function(data) {
          console.log(data);
          $scope.QR = data;
      });
@@ -139,7 +139,7 @@ angular.module('starter.controllers', [])
             })
 
 .controller('AustinsCtrl', ['$scope', '$http', function($scope, $http) {
-     $http.get("http://songchant.com/outlaw/austins.json").success(function(data) {
+     $http.get("https://secure.rcomhost.com/songchant.com/outlaw/austins.json").success(function(data) {
          console.log(data);
          $scope.austins = data;
      });

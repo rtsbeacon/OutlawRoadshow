@@ -5,7 +5,7 @@ angular.module('starter.services', [])
    var artists = [];
     return {
       getArtists: function(){
-        return $http.get("http://songchant.com/outlaw/artists.json").then(function(response){
+        return $http.get("https://secure.rcomhost.com/songchant.com/outlaw/artists.json").then(function(response){
           artists = response;
           return artists;
           console.log(artists);
@@ -26,7 +26,7 @@ angular.module('starter.services', [])
    var austins = [];
     return {
       getAustins: function(){
-        return $http.get("http://songchant.com/outlaw/austins.json").then(function(response){
+        return $http.get("https://secure.rcomhost.com/songchant.com/outlaw/austins.json").then(function(response){
           artists = response;
           return austins;
           console.log(austins);
@@ -47,7 +47,7 @@ angular.module('starter.services', [])
    var news = [];
     return {
       getNews: function(){
-        return $http.get("http://songchant.com/outlaw/news.json").then(function(response){
+        return $http.get("https://secure.rcomhost.com/songchant.com/outlaw/news.json").then(function(response){
           artists = response;
           return news;
           console.log(news);
@@ -69,7 +69,7 @@ angular.module('starter.services', [])
    var sponsors = [];
     return {
       getSponsors: function(){
-        return $http.get("http://songchant.com/outlaw/sponsors.json").then(function(response){
+        return $http.get("https://secure.rcomhost.com/songchant.com/outlaw/sponsors.json").then(function(response){
           artists = response;
           return sponsors;
           console.log(sponsors);

@@ -252,12 +252,12 @@ angular.module('starter', [
                }
             }
     })
-    .state('app.rsvp', {
-               url: "/rsvp",
+    .state('app.email', {
+               url: "/email",
                views: {
                'menuContent': {
                templateUrl: "templates/rsvp.html",
-               controller: 'RSVPCtrl',
+               controller: 'EMAILCtrl',
                }
             }
     })
@@ -349,6 +349,6 @@ angular.module('starter', [
       }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/schedule');
+  $urlRouterProvider.otherwise('/app/artists');
 });
 

@@ -10,7 +10,9 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
-  <access origin="*" subdomains="true" />
+  <allow-navigation href="*" />
+  <allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
    <preference name="permissions" value="none"/>
   <!--<preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>

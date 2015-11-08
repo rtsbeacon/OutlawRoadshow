@@ -7,16 +7,30 @@ The Artists service returns an array of artist data
 <!-- I am editing the file just to see where it shows up in git-->
 <ion-view>
   <ion-content class="content-artist-detail">
-  <span style="style="font-size: 20px><br>
-  <a href="#" onclick="window.open('https://www.google.com/maps/place/Red+Eyed+Fly/@30.267908,-97.7364,17z/data=!4m2!3m1!1s0x0:0xdd968de2f93d7de8', '_system', 'location=yes')">-  Google Map of Red Eyed Fly and Elysium</a><br><br>
-  <a href="#" onclick="window.open('https://twitter.com/thersl', '_system', 'location=yes')">-  Tweets from @theRSL</a><br><br>
-  <a href="#" onclick="window.open('https://open.spotify.com/user/outlaw_roadshow_radio/playlist/2NwMepIzdBYm5lBLRgUNjx', '_system', 'location=yes')">-  Spotify playlist of artists from The Outlaw Roadshow 2015 - Austin</a><br><br>
-  <a href="#" onclick="window.open('http://www.theoutlawroadshow.com', '_system', 'location=yes')">-  The Outlaw Roadshow</a><br><br>
-  <a href="#" onclick="window.open('http://wemfradio.com/category/shows/outlawroadshow/', '_system', 'location=yes')">-  Podcasts from The Outlaw Roadshow Radio</a><br><br>
-</span>
+<!--   <span style="font-size: 22px"><br>News</span><br><br>
+  	<ion-list>
+  	 <ion-item class="item item-text-wrap" ng-repeat="new in news | orderBy: 'id'">
+  	 	<span style="font-family: sans-serif; font-size: 16px; color: #BA1013">{{new.topic}}</span>
+  	 </ion-item>
+ 	</ion-list>
+ </span>
+ <span style="font-size: 22px"><br>Links</span><br>  -->
+<div>
     
-  </ion-content>
-</ion-view> 
+<!-- <button class="button button-block button-dark" ng-click="identifyUser()">
+    Register as a user
+</button>
+<button class="button button-block button-dark" ng-click="registerWithPushService()">
+    Register with Push Service
+</button> -->
+<div class="list list-inset">
+    <a href="#" class="item item-icon-left" onclick="window.open('https://twitter.com/thersl', '_system', 'location=yes')"><i class="icon ion-social-twitter"></i>Tweets from @theRSL</a>
+    <a href="#" class="item item-icon-left" onclick="window.open('https://open.spotify.com/user/outlaw_roadshow_radio/playlist/2NwMepIzdBYm5lBLRgUNjx', '_system', 'location=yes')"><i class="icon ion-headphone"></i>Spotify playlist from Austin 2015</a>
+    <a href="#" class="item item-icon-left" onclick="window.open('http://www.theoutlawroadshow.com', '_system', 'location=yes')"><i class="icon ion-home"></i>The Outlaw Roadshow</a>
+    <a href="#" class="item item-icon-left" onclick="window.open('http://wemfradio.com/category/shows/outlawroadshow/', '_system', 'location=yes')"><i class="icon ion-ipod"></i>Podcasts from <br>The Outlaw Roadshow Radio</a>
+</div>
 
+</ion-content>
+</ion-view> 
 
 

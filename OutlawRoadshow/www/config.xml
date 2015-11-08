@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<widget id="com.outlawroadshow.ionic.push" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap= "http://phonegap.com/ns/1.0">
+<widget id="com.outlawroadshow.ionic.push" version="2.0.2" versionCode="8802" xmlns="http://www.w3.org/ns/widgets" xmlns:gap= "http://phonegap.com/ns/1.0">
   <name>The Outlaw Roadshow</name>
   <description>
         An app for fans and Outlaws
@@ -10,6 +10,10 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <allow-navigation href="*" />
+  <allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<preference name="phonegap-version" value="3.7.0" />
    <preference name="permissions" value="none"/>
   <!--<preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
@@ -57,6 +61,7 @@
     <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
     <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
 
+
    <!--
     <gap:splash src="resources/android/splash/drawable-landscape-xxhdpi-screen.png" gap:platform="android" gap:qualifier="land-xxhdpi"/>
     <gap:splash src="resources/android/splash/drawable-landscape-xxxhdpi-screen.png" gap:platform="android" gap:qualifier="land-xxxhdpi"/>
@@ -66,7 +71,6 @@
     <gap:splash src="resources/android/splash/drawable-port-xhdpi-screen.png" gap:platform="android" gap:qualifier="ldpi"density="port-xhdpi"/>
     <gap:splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" gap:platform="android" gap:qualifier="ldpi"density="port-xxhdpi"/>
     <gap:splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" gap:platform="android" gap:qualifier="ldpi"density="port-xxxhdpi"/> 
-
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>  -->
       <!-- <feature name="InAppBrowser"> 
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
@@ -74,6 +78,7 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>  -->
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
-
+<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 </widget>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.outlawroadshow.ionic.push" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.outlawroadshow.ionic.push" version="2.0.2" versionCode="8802" xmlns="http://www.w3.org/ns/widgets" xmlns:gap= "http://phonegap.com/ns/1.0">
   <name>The Outlaw Roadshow</name>
   <description>
         An app for fans and Outlaws
@@ -9,6 +9,10 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <allow-navigation href="*" />
+  <allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<preference name="phonegap-version" value="3.7.0" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
@@ -69,6 +73,33 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+   <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+      <intent-filter>
+          <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+          <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            <category android:name="com.outlawroadshow.ionic.push" />
+      </intent-filter>
+    </receiver>
+  </gap:config-file>
+<gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+ </gap:config-file>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <activity android:name="com.arellomobile.android.push.PushWebview" />
+  </gap:config-file>
+    <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <activity android:name="com.arellomobile.android.push.MessageActivity" />
+  </gap:config-file>  
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <activity android:name="com.arellomobile.android.push.PushHandlerActivity" />
+  </gap:config-file>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+    <service android:name="com.arellomobile.android.push.PushGCMIntentService" />
+  </gap:config-file>
+  <gap:config-file platform="android" target="AndroidManifest.xml" parent="/manifest/application" mode="delete">
+     <service android:name="com.plugin.gcm.GCMIntentService" />
+  </gap:config-file>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
       <feature name="InAppBrowser"> 
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
@@ -76,5 +107,10 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" /> 
     </feature>
-    <gap:plugin name="org.apache.cordova.inappbrowser" />   
+    <feature name="PushPlugin">
+        <param name="ios-package" value="PushPlugin" />
+    </feature>
+<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 </widget>
